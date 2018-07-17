@@ -1,4 +1,3 @@
-#in homepage html file
 <!doctype html>
 <html lang="en">
 <div id="grey"></div>
@@ -8,6 +7,31 @@
     <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
     <center> <font size="28"> <id="title" style="font-family: 'Merienda', cursive;"> Smart Website Name </font>
     <br> <font size="4"> <id="quote" style="font-family: 'Quicksand', sans-serif;"> "We're all in this together." - High School Musical </font>
+    <break>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .btn {
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .btn:hover {background: #eee;}
+    .success {color: green;}
+    .info {color: dodgerblue;}
+    .warning {color: orange;}
+    .danger {color: red;}
+    .default {color: black;}
+    </style>
+    </head>
+    <body>
+    <button class="btn Homepage">Homepage</button>
+    <button class="btn Programs">Programs</button>
+    <button class="btn Scholarships">Scholarships</button>
+    <button class="btn Advice Blog">Advice Blog</button>
+    <button class="About Us">About Us</button>
     <br> <br>
   </head>
   <body>
@@ -19,41 +43,3 @@
     <font size="4"> <id="vision" style="font-family: 'Signika', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt massa a mollis pulvinar. Vestibulum sit amet tortor sit amet nunc tincidunt ullamcorper. Nulla iaculis felis sit amet nulla venenatis, in vulputate felis efficitur. Nulla blandit, nisi consectetur lobortis blandit, sem tellus fringilla velit, eu bibendum odio tortor a sapien. Cras malesuada tristique condimentum. Cras iaculis mattis mauris, vel luctus ligula pharetra quis. Nam viverra mi ultrices lectus eleifend sagittis.Sed condimentum lacus eget placerat luctus. Fusce vel posuere justo, viverra iaculis leo. Curabitur semper imperdiet urna, at volutpat lorem eleifend ut. Aenean elementum odio tortor, non porttitor libero vestibulum quis. Sed vel nisi quis libero molestie faucibus in a dolor. </font>
   </body>
 </html>
-
-
-
-#in homepage css file
-body {
-  background-color: rgba(230, 230, 230, 0.6);
-#It sets the entire page's background to that color
-  padding: 0px;
-  margin: 0px;
-}
-
-#grey{
-  position: fixed;
-  top: 0px;
-#Where the color starts
-  height: 25%;
-#How much of the page does it take up
-  width: 100%;
-From left to right
-#Background-color: #e0e0eb;
-  z-index: -1
-#Its set to the very back
-}
-
-#green{
-  position: fixed;
-  top: 97px;
-  height: 5%;
-  width: 100%;
-  background-color: #c6ebc6;
-  z-index: -1
-}
-
-#title {
-   style="font-family: 'Merienda', cursive;"
-}
-#quote
-#vision
