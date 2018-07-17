@@ -1,0 +1,52 @@
+#in html file 
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css"
+  <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto" rel="stylesheet">
+<body>
+  <div id="grey"></div>
+  <div id="white"></div>
+
+<h1 style="font-family: 'Coda Caption', sans-serif;">Resources </h1>
+</head>
+</body>
+</html>
+
+
+#in css file
+body {
+  background-color: rgba(128, 128, 128, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+#black{
+  position: fixed;
+  top: 30px;
+  height:20%;
+  width: 100%;
+  background-color: black;
+  z-index: -1
+}
+  #green{
+    position: fixed;
+    top: 80px;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(198, 235, 198, 1.0);
+    z-index: -1
+  }
+
+
+
+  #white{
+    position: fixed;
+    top: 80px;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    z-index: -1
+  }
