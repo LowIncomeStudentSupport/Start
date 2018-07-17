@@ -1,12 +1,59 @@
+#in homepage html file
 <!doctype html>
 <html lang="en">
-
+<div id="grey"></div>
+<div id="green"></div>
   <head>
-    <center> <h1 id="title">
-    <font color=  #00004d> &#9824; <font color= #33cc33> Ingrid Zhang <font color=  #00004d> &#9824;
+      <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
+    <center> <font size="28"> <id="title" style="font-family: 'Merienda', cursive;"> Smart Website Name </font>
+    <br> <font size="4"> <id="quote" style="font-family: 'Quicksand', sans-serif;"> "We're all in this together." - High School Musical </font>
+    <br> <br>
   </head>
-  
   <body>
+    <br> <br>
+    <img src=>
+    <img src="students.jpg">
+    <br> <br> <br>
+  </center> <br> <i> <font size="6"> <id="vision" style="font-family: 'Signika', sans-serif;"> Our Vision for Creating Smart Website Name </i> </font> <br>
+    <font size="4"> <id="vision" style="font-family: 'Signika', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt massa a mollis pulvinar. Vestibulum sit amet tortor sit amet nunc tincidunt ullamcorper. Nulla iaculis felis sit amet nulla venenatis, in vulputate felis efficitur. Nulla blandit, nisi consectetur lobortis blandit, sem tellus fringilla velit, eu bibendum odio tortor a sapien. Cras malesuada tristique condimentum. Cras iaculis mattis mauris, vel luctus ligula pharetra quis. Nam viverra mi ultrices lectus eleifend sagittis.Sed condimentum lacus eget placerat luctus. Fusce vel posuere justo, viverra iaculis leo. Curabitur semper imperdiet urna, at volutpat lorem eleifend ut. Aenean elementum odio tortor, non porttitor libero vestibulum quis. Sed vel nisi quis libero molestie faucibus in a dolor. </font>
   </body>
-  
 </html>
+
+
+
+#in homepage css file
+body {
+  background-color: rgba(230, 230, 230, 0.6);
+#It sets the entire page's background to that color
+  padding: 0px;
+  margin: 0px;
+}
+
+#grey{
+  position: fixed;
+  top: 0px;
+#Where the color starts
+  height: 25%;
+#How much of the page does it take up
+  width: 100%;
+From left to right
+#Background-color: #e0e0eb;
+  z-index: -1
+#Its set to the very back
+}
+
+#green{
+  position: fixed;
+  top: 97px;
+  height: 5%;
+  width: 100%;
+  background-color: #c6ebc6;
+  z-index: -1
+}
+
+#title {
+   style="font-family: 'Merienda', cursive;"
+}
+#quote
+#vision
