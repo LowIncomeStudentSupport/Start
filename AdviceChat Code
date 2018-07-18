@@ -1,0 +1,90 @@
+In html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Stylezzz.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+<body>
+<div id="gray"></div>
+<div id="green"></div>
+<div id="black"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <p><font color="white"> <font size="28"> <div id="title"> Advice Chat </div.</font></p> <p align="right"><button class="btn Homepage">Homepage</button></p>
+  </span>
+</h1>
+
+
+</body>
+</html>
+
+In css
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gray{
+  position: fixed;
+  top: 0px;
+  height: 25%;
+  width: 100%;
+  background-color: gray;
+  z-index: -1
+}
+
+#green{
+  position: fixed;
+  top: 80px;
+  height: 3%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1
+}
+
+#black{
+  position: fixed;
+  top: 115px;
+  height: 3%;
+  width: 100%;
+  background-color: black;
+  z-index: -1
+}
+
+#graybar{
+    border-right: 40px solid rgba(191, 191, 191, 1.0);
+    height: 1000px;
+    right: 50px;
+    position: fixed;
+    top: 0;
+    z-index: -2
+}
+
+.btn {
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Homepage {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Homepage:hover {
+    background: #e7e7e7;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+}
