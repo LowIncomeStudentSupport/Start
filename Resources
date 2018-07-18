@@ -3,18 +3,26 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css"
-  <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chela+One|Roboto+Mono" rel="stylesheet">
 <body>
   <div id="grey"></div>
+  <h1 style="font-family: 'Roboto Mono', monospace;">Resources</h1>
+    <div id="greenLine"></div>
+    <div id="greenLine2"></div>
   <div id="white"></div>
+  <div id="black"></div>
 
-<h1 style="font-family: 'Coda Caption', sans-serif;">Resources </h1>
+
+
 </head>
 </body>
 </html>
 
 
-#in css file
+
+
+#in css file 
+
 body {
   background-color: rgba(128, 128, 128, 1.0);
   padding: 0px;
@@ -24,9 +32,9 @@ body {
 
 
 #black{
-  position: fixed;
-  top: 30px;
-  height:20%;
+  position:absolute;
+  top: 120px;
+  height:2%;
   width: 100%;
   background-color: black;
   z-index: -1
@@ -43,10 +51,37 @@ body {
 
 
   #white{
-    position: fixed;
+    position: absolute;
     top: 80px;
     height: 5%;
     width: 100%;
     background-color: white;
     z-index: -1
+  }
+
+
+
+  #greenLine{
+    border-right: 6px solid rgba(198, 235, 198, 1.0);
+    height: 1000px;
+    position: absolute;
+    right: 5%;
+    width: 30%;
+    margin-left: -3px;
+    top: 0;
+    
+  }
+
+
+
+  #greenLine2{
+  border-right: 6px solid rgba(198, 235, 198, 1.0);
+  height: 1000px;
+  position: absolute;
+  right: 8%;   /* This places the line as far as you want it to the right */
+  width: 20%;
+  margin-left: -3px;
+  top: 0;
+  z-index: -1
+
   }
