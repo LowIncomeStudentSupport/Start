@@ -1,8 +1,8 @@
-In html
+in html
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Stylezzz.css">
+    <link rel="stylesheet" href="adviceChat.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
   </head>
 
@@ -18,9 +18,10 @@ In html
   </span>
 </h1>
 
-
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '23bde769-bb35-48df-b2ee-b0be4a4578ef', f: true }); done = true; } }; })();</script>
 </body>
 </html>
+
 
 In css
 body {
