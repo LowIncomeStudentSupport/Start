@@ -3,20 +3,23 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css"
-<link href="https://fonts.googleapis.com/css?family=Chela+One|Roboto+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand" rel="stylesheet">
+
 <body>
   <div id="grey"></div>
-  <h1 style="font-family: 'Roboto Mono', monospace;">Resources</h1>
+  <h1 >Resources</h1>
     <div id="greenLine"></div>
     <div id="greenLine2"></div>
   <div id="white"></div>
   <div id="black"></div>
-
+  <p align="right"><button class="btn Homepage">Homepage</button></p>
 
 
 </head>
+
 </body>
 </html>
+
 
 
 
@@ -69,7 +72,7 @@ body {
     width: 30%;
     margin-left: -3px;
     top: 0;
-    
+
   }
 
 
@@ -85,3 +88,28 @@ body {
   z-index: -1
 
   }
+
+  .btn {
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Homepage {
+  color: black;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+
+.Homepage:hover {
+    background: #e7e7e7;
+}
+
+h1 {
+  "font-family: 'Roboto Mono', monospace;"
+}
