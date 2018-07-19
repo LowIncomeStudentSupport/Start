@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="grey"></div>
+<div id="green"></div>
+<div id="green2"></div>
+<div id="black"></div>
+<div id="black2"></div>
+  <head>
+      <link rel="stylesheet" href="homepage.css">
+      <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
+    <center> <font size="28"> <div id="title"> 聪明的网站名字 </div> </font>
+    <center>
+    <br> <font size="4"> <div id="quote"> "We're all in this together." - High School Musical </font> </div>
+    <br> <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <a href="http://google.com" style='text-decoration:none;'><button class="btn">首页</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">奖学金</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">建议博客</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">关于我们</button> </a>
+    <br> <br> <br>
+    <img src="students.jpg">
+  </center>
+   <br> <br> <i> <font size="6"> <div id="vision"> 我们创造聪明的网站名字的目的 </i> </font> <br></div>
+    <font size="4"> <div id="text"> <b> 聪明的网站名字 </b>是一组来自一个入门计算机科学课程的女孩创建的。她们的program是完全免费的。计算机科学计划和主办公司慷慨的每天提供所有材料和膳食。聚集在一起们选择她们项目的主题的项目，她们无豪（？）问的想为那些面临类似挑战的人，以及不同行业的人们，提供帮助。作为从低收入家庭来的的学生，他们背负着各种家庭责任，因此在学校了挣扎跟上经济稳定的同龄人。本网站包含的信息是我们，跟你同样当学生的，希望在我们曾经寻找信息的时间里， 拥有的资源。你既然已经在这里，我们可以告诉你，你是一个雄心勃勃的学生。我们希望本网站对你的学业和努力有所帮！</font></div>
+  </body>
+</html>
