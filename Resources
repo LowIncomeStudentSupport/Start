@@ -2,30 +2,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css"
+  <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand" rel="stylesheet">
 
 <body>
   <div id="grey"></div>
-  <h1 >Resources</h1>
+  <font size="28"> <div id="title">Resources </div></font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
     <div id="greenLine"></div>
     <div id="greenLine2"></div>
+
   <div id="white"></div>
   <div id="black"></div>
-  <p align="right"><button class="btn Homepage">Homepage</button></p>
 
+  <br>
+  <h2>
+    <p><font size=4><div  id="bestInfo">Best websites, and what they offer:</font></div>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://www.collegeboard.org/">Collegeboard:</a></p></div>
+    <p><font size=4><li class="scholarships">Scholarships</font></li></p>
+    <p><font size=4><li class = "dates">Testing dates for ACT, SAT, SAT Subject Tests, and AP tests</font></li></p>
+    <p><font size=4><li class="advice">Advice on which tests and classes you should take</font></li></p>
+<br>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="http://www.ronniesawesomelist.com/">Ronnie’s Awesome List:</a></p></div>
+      <p><font size=4><li class="mother">Compilation made by a mother for community events, camps, and programs. Ex. Teen Science Night, hosted by California Academy of Sciences</font></li></p>
+      <p><font size=4><li class="blog">Blogs about people’s experience participating in different events/programs</font></li></p>
+      <p><font size=4><li class="family">A ton of family events as well, so you can, as a family, explore new things together</font></li></p>
 
-</head>
-
-</body>
-</html>
 
 
 
 
 
 #in css file 
-
 body {
   background-color: rgba(128, 128, 128, 1.0);
   padding: 0px;
@@ -89,27 +102,96 @@ body {
 
   }
 
-  .btn {
-    border: none;
-    background-color: gray;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+
+
+
+
+
+#title {
+  font-family: 'Quicksand', sans-serif;
+}
+#bestInfo{
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 30px;
 }
 
-.Homepage {
-  color: black;
+#websiteName{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 50px;
+
+}
+.scholarships {
+  position:absolute;
+  top:280px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+}
+.dates{
   position: absolute;
-  top:0;
-  right:0;
+  top: 305px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
-.Homepage:hover {
-    background: #e7e7e7;
+.advice{
+  position:absolute;
+  top:330px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
-h1 {
-  "font-family: 'Roboto Mono', monospace;"
+.mother{
+  position:absolute;
+  top:405px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width:85%
+
 }
+
+.blog{
+  position:absolute;
+  top:455px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.family
+
+
+
+
+
+#insideWeb{
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: circle;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 80px;
+  }
+
+
+
+
+  .btn{
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+  }
+
+
+
+
