@@ -1,0 +1,49 @@
+##in html
+
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" href="aboutUs.css"
+    <link href="https://fonts.googleapis.com/css?family=Chela+One|Roboto+Mono" rel="stylesheet">
+    <body>
+      <div id="green"></div>
+      <div id="black"></div>
+      <div id="grey"></div>
+
+
+####in css
+body {
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+#green{
+  position:absolute;
+  top: 80px;
+  height: 25%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1;
+  top: 0
+}
+
+#black{
+  position:fixed;
+  top: 120px;
+  height:8%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  top:45
+}
+
+
+#grey{
+  position: fixed;
+  top:80px;
+  height:4%;
+  width: 100%;
+  background-color: gray;
+  top: 110
+}
