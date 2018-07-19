@@ -1,0 +1,131 @@
+In html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Stylez.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+<body>
+<div id="black"></div>
+<div id="grey"></div>
+<div id="green"></div>
+<div id="blackbar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div id="title"> Programs </div.</font> <p align="right"><button class="btn Homepage">Homepage</button></p>
+  </span>
+</h1>
+
+<div id="Quicksand">
+  <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">UC Berkeley Summer Experience:</a></p>
+  <p style="font-size:40%;"> The Berkeley Summer Program is a residential program that offers an application workshop and information sessions
+  to introduce students to the UC application and the admission process.</p>
+  <p style="font-size:40%;">-For high school juniors and seniors and community college students</p>
+
+  <p style="font-size:40%;"><a href="https://www.clylp.org/">Chicano Youth Leadership Conference (CLYLP):</a></p>
+  <p style="font-size:40%;"> The Chicano Youth Leadership Conference Program offers different programs to high school students to get them on the track
+  to college. There are different programs hosted at different sites each with different eligibility requirements.</p>
+  <p style="font-size:40%;">-For sophomores and juniors</p>
+
+  <p style="font-size:40%;"><a href="https://girlswhocode.com/summer-immersion-programs/">Girls Who Code Summer Immersion Summer Program:</a></p>
+  <p style="font-size:40%;"> The GWC SIP is a free program hosted at different company sites that introduces young high school girls into the world of computer science.
+  The program is entirely free and a computer is provided for the duration of the class.</p>
+  <p style="font-size:40%;">-For rising junior and senior girls</p>
+
+  <p style="font-size:40%;"><a href="http://www.chabotspace.org/champions-of-science">Champions of Science:</a></p>
+  <p style="font-size:40%;"> Champions of Science is an after-school program that works to help the underserved middle school students of the Oakland Unified School
+  District and getting them interested into the STEM field. </p>
+  <p style="font-size:40%;">-For middle school students of the Oakland Unified School District</p>
+
+  <p style="font-size:40%;"><a href="https://kplaunch.kaiserpermanente.org/">Kaiser Permanente Launch Diversifying the Future of Health Care:</a></p>
+  <p style="font-size:40%;"> Kaiser Permanente Launch Diversifying the Future of Health Care has a high school summer program and a college program. In which the
+  interns are exposed to the healthcare environment. </p>
+  <p style="font-size:40%;">-For high schoolers of ages 16-19 and college students of ages 18-24</p>
+
+  <p style="font-size:40%;"><a href="http://cosmos.ucdavis.edu/other.htm">California State Summer School for Mathematics and Science (COSMOS):</a></p>
+  <p style="font-size:40%;"> COSMOS is a residential summer program with a small fee with the goal of motivating California's future scientests, mathematicians, and
+  engineers.</p>
+  <p style="font-size:40%;">-For eighth graders to twelve graders</p>
+</div>
+
+
+</body>
+</html>
+
+
+In css
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+#blackbar{
+    border-right: 40px solid black;
+    height: 1100px;
+    right: 40px;
+    position: absolute;
+    top: 0;
+    z-index: -2
+}
+
+#grey{
+  position: absolute;
+  top: 0px;
+  height: 25%;
+  width: 100%;
+  background-color: gray;
+  z-index: -1
+}
+
+#green{
+  position: absolute;
+  top: 80px;
+  height: 5%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1
+}
+
+#black{
+  position: absolute;
+  top: 141px;
+  height: 2%;
+  width: 100%;
+  background-color: black;
+}
+
+.btn {
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Homepage {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Homepage:hover {
+    background: #e7e7e7;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 50;
+  margin-right: 100;
+  margin-left: 30px;
+}
