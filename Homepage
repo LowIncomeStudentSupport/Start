@@ -1,45 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <div id="grey"></div>
 <div id="green"></div>
+<div id="green2"></div>
+<div id="black"></div>
+<div id="black2"></div>
   <head>
       <link rel="stylesheet" href="homepage.css">
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
-    <center> <font size="28"> <id="title" style="font-family: 'Merienda', cursive;"> Smart Website Name </font>
-    <br> <font size="4"> <id="quote" style="font-family: 'Quicksand', sans-serif;"> "We're all in this together." - High School Musical </font>
-    <break>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .btn {
-        border: none;
-        background-color: inherit;
-        padding: 14px 28px;
-        font-size: 16px;
-        cursor: pointer;
-        display: inline-block;
-    }
-    .btn:hover {background: #eee;}
-    .success {color: green;}
-    .info {color: dodgerblue;}
-    .warning {color: orange;}
-    .danger {color: red;}
-    .default {color: black;}
-    </style>
-    </head>
-    <body>
-    <button class="btn Homepage">Homepage</button>
-    <button class="btn Programs">Programs</button>
-    <button class="btn Scholarships">Scholarships</button>
-    <button class="btn Advice Blog">Advice Blog</button>
-    <button class="About Us">About Us</button>
+      <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
+    <center> <font size="28"> <div id="title"> Smart Website Name  </div> </font>
+    <center>
+    <br> <font size="4"> <div id="quote"> "We're all in this together." - High School Musical </font> </div>
     <br> <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <br> <br>
-    <img src=>
-    <img src="students.jpg">
+    <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
     <br> <br> <br>
-  </center> <br> <i> <font size="6"> <id="vision" style="font-family: 'Signika', sans-serif;"> Our Vision for Creating Smart Website Name </i> </font> <br>
-    <font size="4"> <id="vision" style="font-family: 'Signika', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt massa a mollis pulvinar. Vestibulum sit amet tortor sit amet nunc tincidunt ullamcorper. Nulla iaculis felis sit amet nulla venenatis, in vulputate felis efficitur. Nulla blandit, nisi consectetur lobortis blandit, sem tellus fringilla velit, eu bibendum odio tortor a sapien. Cras malesuada tristique condimentum. Cras iaculis mattis mauris, vel luctus ligula pharetra quis. Nam viverra mi ultrices lectus eleifend sagittis.Sed condimentum lacus eget placerat luctus. Fusce vel posuere justo, viverra iaculis leo. Curabitur semper imperdiet urna, at volutpat lorem eleifend ut. Aenean elementum odio tortor, non porttitor libero vestibulum quis. Sed vel nisi quis libero molestie faucibus in a dolor. </font>
+    <img src="students.jpg">
+  </center>
+   <br> <br> <i> <font size="6"> <div id="vision"> Our Vision for Creating Smart Website Name </i> </font> <br></div>
+    <font size="4"> <div id="text"> <b> SMART WEBSITE NAME </b>was created when a team of girls from an introductory computer science program got together to work on project on the topic of their choice. The generosity of their computer science program and host company, which was entirely free and provided all materials and meals everyday, prompted the girls to make something helpful to people who have faced similar challenges they have, as well as those of different walks of life. As students of low income families, they are burdened with family duties, and as a result consistently struggle in keeping up to their financially stable counterparts in school. This site includes information, we as students like you, wish to have had in our time looking for academic resources and opportunities. Since you are already here, we can tell you are a pupil of ambition. We hope you find this site helpful in your endeavors!</font></div>
   </body>
 </html>
