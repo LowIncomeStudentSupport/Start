@@ -8,9 +8,11 @@
   <head>
       <link rel="stylesheet" href="homepage.css">
       <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
-    <center> <font size="28"> <div id="title"> Smart Website Name  </div> </font>
+    <center> <font size="28"> <div id="title"> Smart Website Name  </div> </font> </center>
+    <div id="lang"> <font size="4"> <a href="file:///Users/ingridchang/Desktop/income/homepageESP.html" style='text-decoration:none;'><button class="btn">Español</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/homepageCHN.html" style='text-decoration:none;'><button class="btn">中文</button> </a> </font> </div>
     <center>
-    <br> <font size="4"> <div id="quote"> "We're all in this together." - High School Musical </font> </div>
+    <br> <br> <font size="4"> <div id="quote"> "We're all in this together." - High School Musical </font> </div>
     <br> <br>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
