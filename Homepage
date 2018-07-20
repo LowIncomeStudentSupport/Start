@@ -1,3 +1,6 @@
+In html
+
+
 <!DOCTYPE html>
 <html lang="en">
 <div id="grey"></div>
@@ -29,3 +32,113 @@
     <font size="4"> <div id="text"> <b> SMART WEBSITE NAME </b>was created when a team of girls from an introductory computer science program got together to work on project on the topic of their choice. The generosity of their computer science program and host company, which was entirely free and provided all materials and meals everyday, prompted the girls to make something helpful to people who have faced similar challenges they have, as well as those of different walks of life. As students of low income families, they are burdened with family duties, and as a result consistently struggle in keeping up to their financially stable counterparts in school. This site includes information, we as students like you, wish to have had in our time looking for academic resources and opportunities. Since you are already here, we can tell you are a pupil of ambition. We hope you find this site helpful in your endeavors!</font></div>
   </body>
 </html>
+
+
+In css
+
+btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
+}
+
+/*
+.scholarships {color: black;}
+.homepage {color: black;}
+.adviceblog {color: black;}
+.aboutus {color: black;}
+*/
+
+body {
+  background-color: rgba(230, 230, 230, 0.6);
+#It sets the entire page's background to that color
+  padding: 0px;
+  margin: 100px;
+  margin-bottom:25px;
+  margin-top: 25px;
+}
+
+
+#grey{
+  position: fixed;
+  top: 0px;
+#Where the color starts
+  height: 25%;
+#How much of the page does it take up
+  width: 100%;
+From left to right
+#Background-color: #e0e0eb;
+  z-index: -2
+#Its set to the very back
+}
+
+#green{
+  position: fixed;
+  top: 25px;
+  height: 9%;
+  width: 100%;
+  background-color: #c6ebc6;
+  z-index: -1001;
+  left: 1px;
+}
+
+#green2{
+  position: fixed;
+  top: 100px;
+  height: 18%;
+  width: 100%;
+  background-color: #c6ebc6;
+  z-index: -1000;
+  left: 1px;
+}
+
+#black{
+  pointer-events: none;
+  border-right: 25px solid black;
+  height: 1000px;
+  position: absolute;
+  right: 3%;
+  width: 30%;
+  margin-left: -3px;
+  top: -1;
+}
+
+#black2{
+  pointer-events: none;
+  border-left: 25px solid black;
+  height: 1000px;
+  position: absolute;
+  left: 3%;
+  width: 30%;
+  margin-left: 3px;
+  top: -1;
+}
+
+#title {
+   font-family: 'Merienda', cursive;
+}
+
+#lang {
+  text-align: right;
+  top: 0;
+  margin-top: -70px;
+}
+
+#quote {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#vision{
+  font-family: 'Signika', sans-serif;
+}
+
+#text{
+  font-family: 'Signika', sans-serif;
+}
