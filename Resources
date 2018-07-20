@@ -1,5 +1,4 @@
 #in html file 
-<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
@@ -32,6 +31,22 @@
       <p><font size=4><li class="mother">Compilation made by a mother for community events, camps, and programs. Ex. Teen Science Night, hosted by California Academy of Sciences</font></li></p>
       <p><font size=4><li class="blog">Blogs about people’s experience participating in different events/programs</font></li></p>
       <p><font size=4><li class="family">A ton of family events as well, so you can, as a family, explore new things together</font></li></p>
+<br>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://www.eventbrite.com/">Eventbrite:</a></p></div>
+      <p><font size=4><li class="local">Local events filtered for you based on location. A ton of free events, classes, and workshops are listed</font></li></p>
+
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://prepscholar.com/sat/s/resources">Prepscholar: </a></p></div>
+      <p><font size=4><li class="paid">Prepscholar is a paid online tutoring service for SAT and ACT prep, it offers a huge spectrum of free blogs that provide info and advice about school and college, all written by very well-credentialed people)</font></li></p>
+      <p><font size=4><li class="info">Info about the academic statistics you need to get into any specific college</font></li></p>
+      <p><font size=4><li class="guide">Extensive guides, blogs, advice, and compilation of ideas for school and college</font></li></p>
+      
+
+</head>
+
+</body>
+</html>
 
 
 
@@ -125,6 +140,7 @@ body {
   margin-bottom: 30px;
   margin-right: 100px;
   margin-left: 50px;
+  width:85%
 
 }
 .scholarships {
@@ -165,10 +181,45 @@ body {
   font-family: 'Quicksand', sans-serif;
 
 }
-.family
+.family{
+  position:absolute;
+  top:485px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
 
+}
 
+.local{
+  position:absolute;
+  top:560px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
 
+}
+
+.paid{
+  position:absolute;
+  top:635px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width:85%;
+
+}
+
+.info{
+  position:absolute;
+  top:690px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.guide{
+  position:absolute;
+  top:715px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
 
 
 #insideWeb{
@@ -191,7 +242,3 @@ body {
       cursor: pointer;
       display: inline-block;
   }
-
-
-
-
