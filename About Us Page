@@ -1,0 +1,134 @@
+In html
+<!DOCTYPE>
+<html>
+  <head>
+    <link rel="stylesheet" href="Stylezzzz.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+    <style>
+      .pic1 {
+        vertical-align: left;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 120px;
+        margin-left: 62px;
+        }
+        .pic2 {
+          vertical-align: center;
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          margin-top: 120px;
+          margin-left: 62px;
+          }
+          .pic3 {
+            vertical-align: center;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin-top: 120px;
+            margin-left: 62px;
+            }
+
+    </style>
+  </head>
+
+<body>
+<div id="green"></div>
+<div id="black"></div>
+<div id="grey"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div class="title"> About Us </div.</font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </span>
+</h1>
+
+<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
+alt="Picture of Sopia" class="pic1">
+<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
+alt="Picture of Maria" class="pic2">
+<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
+alt="Picture of Ingrid" class="pic3">
+
+<br>
+  <div id="Quicksand">
+<p style="font-size:40%;"> Sopia: </p> <p style="font-size:40%;"> Maria: </p> <p style="font-size:40%;"> Ingrid </p>
+</body>
+</html>
+
+In css
+body {
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+#green{
+  position: absolute;
+  top: 80px;
+  height: 30%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1;
+  top: 0
+}
+
+#black{
+  position: absolute;
+  top: 70px;
+  height:7%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  top:73
+}
+
+#grey{
+  position: absolute;
+  top:80px;
+  height:4%;
+  width: 100%;
+  background-color: grey;
+  top: 140
+}
+
+#graybar{
+    border-right: 40px solid gray;
+    height: 700px;
+    right: 40px;
+    position: absolute;
+    top: 183;
+}
+
+.title{
+  font-family: 'Merienda', cursive;
+  margin-left: 5px;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 50;
+  margin-right: 100;
+  margin-left: 30px;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(198, 235, 198, 1.0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
+}
