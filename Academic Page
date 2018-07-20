@@ -1,0 +1,112 @@
+In html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Stylezz.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+<body>
+<div id="white"></div>
+<div id="black"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div id="title"> Academic Scholarships </div.</font>     <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </span>
+</h1>
+
+<div id="Quicksand">
+  <p style="font-size:40%;"><a href="https://studentaid.ed.gov/sa/fafsa">Free Appliation for Federal Student Aid (FAFSA):</a></p>
+  <p style="font-size:40%;"> Everyone should fill out FAFSA since it is necessary for applying to federal student aid, work study, and loans.</p>
+
+  <p style="font-size:40%;"><a href="http://www.aesengineers.com/scholarships.php">AES Enegineering Solutions Scholarship:</a></p>
+  <p style="font-size:40%;"> The Scholarship provides aid to the motivated students wanting to further their education.</p>
+  <p style="font-size:40%;">-For high school seniors -Max $500 awarded -An essay is required -Engineering courses don't have to be taken to be elgible</p>
+
+  <p style="font-size:40%;"><a href="https://www.skincareox.com/scholarship/">The Beauty + Wellness Scholarship for Women:</a></p>
+  <p style="font-size:40%;">The scholarship provides financial aid to young women striving to live a healthy life style as a student trying to afford college.</p>
+  <p style="font-size:40%;">-For high school seniors: max $500 awarded -For college students: max 1000 awarded -A small essay is required</p>
+
+  <p style="font-size:40%;"><a href="http://cascwa.org/student-scholarships-2/">California Association of Supervisors of Child Welfare and Attendance(CASCWA):</a></p>
+  <p style="font-size:40%;">The scholarship is meant for high school seniors who have overcome distinctive obstacles (overcoming lack of success caused by personal or family
+  problems or attendance and attitude issues). </p>
+  <p style="font-size:40%;">-For high school seniors -Max $500 awarded </p>
+</div>
+
+</body>
+</html>
+
+In css
+body {
+  background-color: rgba(198, 235, 198, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+#black{
+  position: absolute;
+  top: 130px;
+  height: 5%;
+  width: 100%;
+  background-color: black;
+  z-index: -1
+}
+
+#white{
+  position: absolute;
+  top: 0px;
+  height: 25%;
+  width: 100%;
+  background-color: white;
+  z-index: -1
+}
+
+#graybar{
+    border-right: 20px solid gray;
+    height: 700px;
+    right: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+  margin-left: 5px;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 50;
+  margin-right: 100;
+  margin-left: 30px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: grey;
+}
