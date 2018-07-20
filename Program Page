@@ -12,11 +12,17 @@ In html
 <div id="green"></div>
 <div id="blackbar"></div>
 
+
 <h1>
   <span>
-    <font size="28"> <div id="title"> Programs </div.</font> <p align="right"><button class="btn Homepage">Homepage</button></p>
+    <font size="28"> <div id="title"> Programs </div.</font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
   </span>
 </h1>
+
 
 <div id="Quicksand">
   <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">UC Berkeley Summer Experience:</a></p>
@@ -49,7 +55,6 @@ In html
   engineers.</p>
   <p style="font-size:40%;">-For eighth graders to twelve graders</p>
 </div>
-
 
 </body>
 </html>
@@ -97,26 +102,6 @@ body {
   background-color: black;
 }
 
-.btn {
-    border: none;
-    background-color: gray;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.Homepage {
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.Homepage:hover {
-    background: #e7e7e7;
-}
-
 h1 {
   font-family: 'Merienda', cursive;
 }
@@ -128,4 +113,17 @@ h1 {
   margin-bottom: 50;
   margin-right: 100;
   margin-left: 30px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
 }
