@@ -2,14 +2,82 @@
 
 <!DOCTYPE>
 <html>
-<head>
-    <link rel="stylesheet" href="aboutUs.css"
-    <link href="https://fonts.googleapis.com/css?family=Chela+One|Roboto+Mono" rel="stylesheet">
-    <body>
-      <div id="green"></div>
-      <div id="black"></div>
-      <div id="grey"></div>
+  <head>
+    <link rel="stylesheet" href="Stylezzzz.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+    <style>
+    .pic1 {
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+      }
+    .pic2 {
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+        }
+    .pic3 {
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+          }
+      .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        height: 300px;
+            }
 
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+            }
+
+    </style>
+  </head>
+
+<body>
+<div id="green"></div>
+<div id="black"></div>
+<div id="grey"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div class="title"> About Us </div.</font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </span>
+</h1>
+
+<div id="Quicksand">
+  <div class="row">
+    <div class="column">
+      <h2>Sofia:</h2>
+      <img src="https://vignette.wikia.nocookie.net/webarebears/images/3/37/Ice_bear.png/revision/latest/scale-to-width-down/2000?cb=20160619204008"
+      alt="Picture of Sofia" class="pic1">
+      <p>I am a junior at Castro Valley High School. </p>
+    </div>
+    <div class="column">
+      <h2>Maria:</h2>
+      <img src="https://4.bp.blogspot.com/-tTRyaGldF0U/WGxGm6aYvUI/AAAAAAAAEJo/0cnPBhxGXFAMMtAAdplZ4vPGDmKP85hOACLcB/s1600/Grizzly%2BBear%2B3.png"
+      alt="Picture of Maria" class="pic2">
+      <p>I am a senior at Amador Valley High School </p>
+    </div>
+    <div class="column">
+      <h2>Ingrid:</h2>
+      <img src="https://vignette4.wikia.nocookie.net/webarebears/images/6/69/Panda_Standing.png/revision/latest?cb=20150728014433"
+      alt="Picture of Ingrid" class="pic3">
+      <p>I am a junior at Dublin High School.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
 
 ####in css
 body {
@@ -19,9 +87,9 @@ body {
 }
 
 #green{
-  position:absolute;
+  position: absolute;
   top: 80px;
-  height: 25%;
+  height: 30%;
   width: 100%;
   background-color: rgba(198, 235, 198, 1.0);
   z-index: -1;
@@ -29,21 +97,56 @@ body {
 }
 
 #black{
-  position:fixed;
-  top: 120px;
-  height:8%;
+  position: absolute;
+  top: 70px;
+  height:7%;
   width: 100%;
   background-color: black;
   z-index: -1;
-  top:45
+  top:73
 }
 
-
 #grey{
-  position: fixed;
+  position: absolute;
   top:80px;
   height:4%;
   width: 100%;
-  background-color: gray;
-  top: 110
+  background-color: grey;
+  top: 140
+}
+
+#graybar{
+    border-right: 40px solid gray;
+    height: 725px;
+    right: 40px;
+    position: absolute;
+    top: 183;
+    z-index: -3
+}
+
+.title{
+  font-family: 'Merienda', cursive;
+  margin-left: 5px;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40%;
+  width: 90%;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(198, 235, 198, 1.0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
 }
