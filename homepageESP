@@ -1,0 +1,37 @@
+in html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<div id="grey"></div>
+<div id="green"></div>
+<div id="green2"></div>
+<div id="black"></div>
+<div id="black2"></div>
+  <head>
+      <link rel="stylesheet" href="homepage.css">
+      <link href="https://fonts.googleapis.com/css?family=ABeeZee|Merienda|Nanum+Gothic|Quicksand|Signika" rel="stylesheet">
+    <center> <font size="28"> <div id="title"> Nombre de Sitio Seb Inteligente </div> </font> </center>
+    <div id="lang"> <font size="4"> <div id="lang"> <font size="4">
+    <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn"> English </button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/homepageCHN.html" style='text-decoration:none;'><button class="btn">中文</button> </a> </font> </div>
+    <center>
+    <br> <br> <font size="4"> <div id="quote"> "We're all in this together." - High School Musical </font> </div>
+    <br> <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <a href="file:///Users/ingridchang/Desktop/income/homepageESP.html" style='text-decoration:none;'><button class="btn">Página Principal</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/programsESP.html" style='text-decoration:none;'> <button class="btn">Programas</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/scholarshipsESP.html" style='text-decoration:none;'> <button class="btn">Becas</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/resourcesESP.html" style='text-decoration:none;'> <button class="btn">Recursos</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/adviceBlogESP.html" style='text-decoration:none;'> <button class="btn">Consejos de Blogs</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/aboutUsESP.html" style='text-decoration:none;'> <button class="btn">Sobre Nosotros</button> </a>
+    <br> <br> <br>
+    <img src="http://diverseeducation.com/wp-content/uploads/2014/04/040214_High_School.jpg">
+   <br> <br> <i> <font size="6"> <div id="vision"> Nuestra Visión para Crear Nombre de Sitio Web Inteligente </i> </font> <br></div>
+    <font size="4"> <div id="text"> <b>Nombre del Sitio Web Inteligente</b>se creó cuando un equipo de niñas de un programa introductorio de ciencias de la computación se reunió para trabajar en un proyecto sobre el tema de su elección. La generosidad de su programa de ciencias de la computación y su compañía anfitriona, que fue totalmente gratuita y proporcionó todos los materiales y comidas todos los días, llevó a las niñas a ayudar a las personas que se enfrentaron a desafíos similares, así como a personas de diferentes ámbitos. Como estudiantes de familias de bajos ingresos, están agobiados con los deberes familiares, y como resultado luchan constantemente para mantenerse a la par de sus contrapartes financieramente estables en la escuela. Este sitio incluye información, nosotros como estudiantes como usted, deseamos haber tenido en nuestro tiempo la búsqueda de recursos académicos y oportunidades. Como ya estás aquí, podemos decir que eres un alumno ambicioso. ¡Esperamos que este sitio le resulte útil en sus esfuerzos!</font></div>
+  </center>
+  </body>
+</html>
