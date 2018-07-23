@@ -1,0 +1,342 @@
+in html
+<html>
+  <head>
+    <link rel="stylesheet" href="adviceChat.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+
+<body>
+
+<div id="buttons">
+  <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </div>
+    <div id="gray"></div>
+    <div id="green"></div>
+    <div id="black"></div>
+    <div id="graybar"></div>
+
+<h1>
+  <span>
+    <p> <font size="28"> <div id="title"> Chat de Asesoramiento </div></font></p>
+  </span>
+</h1>
+<br>
+
+<h2>
+
+<p><font size=3><div class="chatText">Si tiene alguna pregunta sobre el contenido de nuestra página web o si necesita más asesoramiento, presione el botón en la parte inferior de la página y nos comunicaremos con usted lo antes posible.</div></font></p>
+
+</h2>
+<br><br>
+
+<h3>
+  <p><font size=4><div id="chatText">Consejos y Sugerencias Adicionales:</div></font></p>
+  <p><font size=5><div id="header">Pasantías pagan!</div></font></p>
+  <p><font size=4><li class="internships">
+Le dan una paga casi siempre superior al salario mínimo, MIENTRAS se le coloca en un entorno profesional en el que aprende a menudo de manera práctica en el campo de su interés. Una forma muy útil de ayudarlo a descubrir si desea dedicar su tiempo futuro a un trabajo como este.
+</font></p></li>
+</h3>
+
+
+<br>
+<h4>
+
+  <p><font size=5><div id="header">
+Pedir exenciones de tarifas, incluso estipendios</div></font></p>
+  <p><font size=4><li class="funding">
+¡Todo tiene fondos! Si muestra motivación, entusiasmo y un registro competitivo adecuado en el tema del programa (la adecuación dependerá de la competitividad del programa), los programas que cuestan dinero están más que dispuestos a otorgarle exenciones. Algunos incluso lo compensarían por su tiempo perdido de trabajo, costos de transporte y otros problemas, para que pueda asistir al programa.
+  </font></p></li>
+</h4>
+
+<br><br>
+<h5>
+  <p><font size=5><div id="header">Bibliotecas </div></font></p>
+  <p><font size=4><li class="tutoring">Tutoría</font></p></li>
+  <p><font size=4><li class="workshops">Talleres</font></p></li>
+  <p><font size=4><li class="ask">Preguntenles a los bibliotecarios sobre los programas en la biblioteca</font></p></li>
+  <p><font size=4><li class="textbook"Usen los libros de texto que proporcionan las bibliotecas</font></p></li>
+
+</h5>
+<br><br>
+<h6>
+  <p><font size=5><div id="header">La Escuela</div></font></p>
+  <p><font size=4><li class="careerCenter">
+Centro de carrera / recursos de asesoramiento. A veces, usted no sabe lo que está buscando, por lo tanto, si su consejero es bueno para preguntar, ¡pregunte! Sin embargo, muchas veces, no son tan útiles.
+  </font></p></li>
+  <p><font size=4><li class="know">SEPA que preguntar</font></p></li>
+  <p><font size=4><li class="schoolLib">Pregunte qué recursos hay en la biblioteca de su escuela, como tutoría.</font></p></li>
+</h6>
+<br><br>
+
+<h5>
+  <p><font size=5><div id="header">Proyectos Individuos</div></font></p>
+  <p><font size=4><li class="science">Participe en su feria de ciencias local: el condado y / o la escuela.</font></p></li>
+  <p><font size=4><li class="ask4help">
+Pedirle a un profesor / profesora del tema de tu interés que te ayude en un proyecto de investigación por tu cuenta. Incluso podría ser un supervisor de un museo / organización de su interés. La gente está muy ansiosa por ayudar a los jóvenes en sus esfuerzos académicos dentro de su experiencia, y a menudo tienen toneladas de fondos, y conexiones y recursos para ayudarlo con su idea.
+  </font></p></li>
+</h5>
+<br><br><br>
+<h4>
+  <p><font size=5><div id="header">Juega tus puntos fuertes ... y tus debilidades</div></font></p>
+  <p><font size=4><li class="application">En su solicitud y ensayos, no vacile en explicar quién es usted.</font></p></li>
+</h4>
+
+
+<h6>
+  <p><font size=5><div id="header">Ponte al frente del juego desde el principio</div></font></p>
+  <p><font size=4><li class="goals">No importa en qué grado se encuentre ahora, sería inteligente investigar un poco sobre las universidades. Las universidades son muy generosas al proporcionar ayuda financiera cuando el rendimiento de un estudiante es altamente deseado y lo necesitan. Tener metas desde el principio lo ayudará a formarse como candidato competente para las universidades a las que desea postularse. Si bien los costos de la universidad pueden parecer extremadamente desalentadores, existen abundantes recursos para que ingreses en las universidades que deseas si trabajas lo suficientemente duro para ello, y aprovechas las oportunidades adecuadas. Si está más cerca del proceso de solicitud, ¡PONGA SU TIEMPO EN INVESTIGAR AYUDA FINANCIERA! Cada universidad brinda apoyo diferente a diferentes estudiantes, así que asegúrese de hacer suficiente trabajo de preparación antes de aplicar para evitar gastar dinero innecesario.
+</font></p></li>
+<br>
+<p><font size=4><li class="afterCollege">Después de ingresar a la universidad, hay innumerables oportunidades que puede buscar para ayudar a pagar su matrícula, con muchas ofrecidas por su universidad y otras por compañías. Desde ser asistente residencial, asistente de maestro o investigar en su laboratorio, puede ganar efectivo, planes de comidas y exenciones de matrícula. A veces, si sus circunstancias se ajustan a sus criterios, las universidades le PAGARAN por asistir a clase y obtener un título.
+</font></p></li>
+</h6><br><br><br><br><br>
+
+<center><img src="thumbs.jpg"></center>
+
+
+
+
+
+
+
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '23bde769-bb35-48df-b2ee-b0be4a4578ef', f: true }); done = true; } }; })();</script>
+</body>
+</html>
+
+
+In css
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
+}
+
+#gray{
+  position:absolute;
+  top: 0px;
+  height: 25%;
+  width: 100%;
+  background-color: gray;
+  z-index: -1
+}
+
+#green{
+  position: absolute;
+  top: 80px;
+  height: 3%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1
+}
+
+#black{
+  position: absolute;
+  top: 115px;
+  height: 3%;
+  width: 100%;
+  background-color: black;
+  
+}
+
+#graybar{
+    border-right: 40px solid rgba(191, 191, 191, 1.0);
+    height: 1000px;
+    right: 50px;
+    position: absolute;
+    top: 0;
+    z-index: -2
+}
+
+.btn {
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Homepage {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Homepage:hover {
+    background: #e7e7e7;
+}
+
+#title {
+  font-family: 'Merienda', cursive;
+
+  height: 70px;
+  margin top:10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+#buttons{
+  position:absolute;
+  top:135px;
+  left:20px;
+}
+
+
+
+
+#chatText{
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+  top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 30px;
+
+}
+
+#header{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 80px;
+
+}
+
+.internships{
+  position:absolute;
+  top: 330px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+}
+
+.funding{
+  position:absolute;
+  top:440px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+
+}
+.tutoring{
+  position:absolute;
+  top: 565px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.workshops{
+  position:absolute;
+  top:585px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.ask{
+  position:absolute;
+  top:605px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.textbook{
+  position:absolute;
+  top:625px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.careerCenter{
+  position:absolute;
+  top:690px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+}
+.chatText{
+  position:absolute;
+  top:180px;
+  left: 80px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+}
+
+.know{
+  position:absolute;
+  top:740px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.schoolLib{
+  position:absolute;
+  top:765px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.science{
+  position: absolute;
+  top:825px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.ask4help{
+  position:absolute;
+  top:855px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+  width: 85%;
+}
+.application{
+  position:absolute;
+  top:965px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.goals{
+  position:absolute;
+  top:1030px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+}
+.afterCollege{
+  position:absolute;
+  top: 1195px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
