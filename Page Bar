@@ -1,14 +1,16 @@
 in html
-    <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
-    
+    <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
     
     
     
 in css
+
+
 .btn{
     border: none;
     background-color: inherit;
