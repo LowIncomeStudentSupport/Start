@@ -20,13 +20,14 @@ in html
 
 <h2>
 
-<p><font size=3><div id="chatText">If you have any questions about the content on our web page or if you need any further advice, please press the button on the bottom of the page and we will get back to you as soon as we can.</div></font></p>
+<p><font size=3><div class="chatText">If you have any questions about the content on our web page or if you need any further advice, please press the button on the bottom of the page and we will get back to you as soon as we can.</div></font></p>
 
 </h2>
+<br><br>
 
 <h3>
   <p><font size=4><div id="chatText">Additional advice and tips:</font></p></div>
-  <p><font size=4><div id="header">Internships pay!</font></p></div>
+  <p><font size=5><div id="header">Internships pay!</font></p></div>
   <p><font size=4><li class="internships">They give you pay almost always above the minimum wage, WHILE you are put in a professional environment where you learn often hands-on in the field of your interest. A very helpful way to help you figure out if you want to dedicate your future time into a job like it
 </font></p></li>
 </h3>
@@ -35,14 +36,14 @@ in html
 <br>
 <h4>
 
-  <p><font size=4><div id="header">Asking for fee waivers, even stipends</font></p></div>
+  <p><font size=5><div id="header">Asking for fee waivers, even stipends</font></p></div>
   <p><font size=4><li class="funding">Everything has funding! If you show motivation, enthusiasm, and an adequately competitive record in the topic of the program (adequacy will depend on the competitiveness of the program), programs that cost money are more than willing to provide you waivers. Some would even compensate you for your lost time for work, costs of transportation, or other issues, in order for you attend the program
   </font></p></li>
 </h4>
 
 <br><br>
 <h5>
-  <p><font size=4><div id="header">Libraries </font></p></div>
+  <p><font size=5><div id="header">Libraries </font></p></div>
   <p><font size=4><li class="tutoring">Tutoring</font></p></li>
   <p><font size=4><li class="workshops">Workshops</font></p></li>
   <p><font size=4><li class="ask">Ask librarians about programs in the library</font></p></li>
@@ -51,19 +52,37 @@ in html
 </h5>
 <br><br>
 <h6>
-  <p><font size=4><div id="header">School</fonts></p></div>
+  <p><font size=5><div id="header">School</fonts></p></div>
   <p><font size=4><li class="careerCenter">Career center/counseling resources. Sometimes, you don’t know what you’re looking for, so in the chance that your counselor is good to ask, ask! However, a lot of the times, they’re not so helpful
   </font></p></li>
+  <p><font size=4><li class="know">KNOW what to ask</font></p></li>
+  <p><font size=4><li class="schoolLib">Ask about what resources are at your school library, like tutoring</font></p></li>
+</h6>
+<br><br>
+
+<h6>
+  <p><font size=5><div id="header">Individual projects</font></p></div>
+  <p><font size=4><li class="science">Participate in your local science fair: County and/or school.</font></p></li>
+  <p><font size=4><li class="ask4help">Asking a teacher/professor of the subject of your interest to aid you in a research project on your own. It could even just be a supervisor from a museum/organization of your intWorkshopserest. People are very eager to help youths in their academic endeavors within their expertise, and they often have tons of funding, and connections and resources to help you with your idea.
+  </font></p></li>
+  </h6>
+  <br><br>
+
+<h6>
+  <p><font size=5><div id="header">Play your strengths.. and weaknesses</font></p></div>
+  <p><font size=4><li class="application">In your application and essays, don’t be hesitant to elaborate on who you are</font></p></li>
+</h6>
 
 
-
-
+<h6>
+  <p><font size=5><div id="header">Get ahead of the game early on</font></p></div>
+  <p><font size=4><li class="goals">No matter what grade you are in right now, it would be smart do some research into colleges. Colleges are very generous in providing financial aid when a student’s performance is highly desired and they are in need of it. Having goals early on will help shape you into a competent candidate for colleges you want to apply to. While costs of college may seem extremely daunting, abundant resources exist for you to get into the colleges you want if you work hard enough for it, and grab onto the right opportunities. If you are closer to the application process, PUT YOUR TIME INTO RESEARCHING FINANCIAL AID! Each college provides different support to different students, so make sure you do enough prep work before applying to avoid spending unnecessary money.
+</font></p></li>
+</h6>
 
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '23bde769-bb35-48df-b2ee-b0be4a4578ef', f: true }); done = true; } }; })();</script>
 </body>
 </html>
-
-
 
 In css
 body {
@@ -142,7 +161,7 @@ body {
 #chatText{
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  top: 5;
+  top: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 100px;
@@ -161,48 +180,109 @@ body {
 
 .internships{
   position:absolute;
-  top: 410px;
+  top: 330px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  width: 85%
+  width: 85%;
+  list-style: circle;
 }
 
 .funding{
   position:absolute;
-  top:510px;
+  top:440px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  width: 85%
+  width: 85%;
+  list-style: circle;
+
 }
 .tutoring{
   position:absolute;
-  top: 625px;
+  top: 565px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
+  list-style: circle;
 }
 .workshops{
   position:absolute;
-  top:645px;
+  top:585px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
+  list-style: circle;
 }
 .ask{
   position:absolute;
-  top:665px;
+  top:605px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-
+  list-style: circle;
 }
 .textbook{
   position:absolute;
-  top:685px;
+  top:625px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
+  list-style: circle;
 }
 .careerCenter{
+  position:absolute;
+  top:690px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+  list-style: circle;
+}
+.chatText{
+  position:absolute;
+  top:180px;
+  left: 80px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+  list-style: circle;
+}
+
+.know{
   position:absolute;
   top:740px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
+  list-style: circle;
+}
+
+.schoolLib{
+  position:absolute;
+  top:765px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  list-style: circle;
+}
+
+.science{
+  position: absolute;
+  top:845px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  list-style: circle;
+}
+.ask4help{
+  position:absolute;
+  top:870px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  list-style: circle;
+  width: 85%
+}
+.application{
+  position:absolute;
+  top:1000px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+}
+.goals{
+  position:absolute;
+  top:1100px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
   width: 85%;
+
 }
