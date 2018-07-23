@@ -5,15 +5,25 @@ in html
     <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
   </head>
 
+
 <body>
-<div id="gray"></div>
-<div id="green"></div>
-<div id="black"></div>
-<div id="graybar"></div>
+
+<div id="buttons">
+  <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </div>
+    <div id="gray"></div>
+    <div id="green"></div>
+    <div id="black"></div>
+    <div id="graybar"></div>
 
 <h1>
   <span>
-    <p> <font size="28"> <div id="title"> Advice Chat </div></font></p> <p align="right"><button class="btn Homepage">Homepage</button></p>
+    <p> <font size="28"> <div id="title"> Advice Chat </div></font></p>
   </span>
 </h1>
 <br>
@@ -26,8 +36,8 @@ in html
 <br><br>
 
 <h3>
-  <p><font size=4><div id="chatText">Additional advice and tips:</font></p></div>
-  <p><font size=5><div id="header">Internships pay!</font></p></div>
+  <p><font size=4><div id="chatText">Additional advice and tips:</div></font></p>
+  <p><font size=5><div id="header">Internships pay!</div></font></p>
   <p><font size=4><li class="internships">They give you pay almost always above the minimum wage, WHILE you are put in a professional environment where you learn often hands-on in the field of your interest. A very helpful way to help you figure out if you want to dedicate your future time into a job like it
 </font></p></li>
 </h3>
@@ -36,14 +46,14 @@ in html
 <br>
 <h4>
 
-  <p><font size=5><div id="header">Asking for fee waivers, even stipends</font></p></div>
+  <p><font size=5><div id="header">Asking for fee waivers, even stipends</div></font></p>
   <p><font size=4><li class="funding">Everything has funding! If you show motivation, enthusiasm, and an adequately competitive record in the topic of the program (adequacy will depend on the competitiveness of the program), programs that cost money are more than willing to provide you waivers. Some would even compensate you for your lost time for work, costs of transportation, or other issues, in order for you attend the program
   </font></p></li>
 </h4>
 
 <br><br>
 <h5>
-  <p><font size=5><div id="header">Libraries </font></p></div>
+  <p><font size=5><div id="header">Libraries </div></font></p>
   <p><font size=4><li class="tutoring">Tutoring</font></p></li>
   <p><font size=4><li class="workshops">Workshops</font></p></li>
   <p><font size=4><li class="ask">Ask librarians about programs in the library</font></p></li>
@@ -52,7 +62,7 @@ in html
 </h5>
 <br><br>
 <h6>
-  <p><font size=5><div id="header">School</fonts></p></div>
+  <p><font size=5><div id="header">School</div></font></p>
   <p><font size=4><li class="careerCenter">Career center/counseling resources. Sometimes, you don’t know what you’re looking for, so in the chance that your counselor is good to ask, ask! However, a lot of the times, they’re not so helpful
   </font></p></li>
   <p><font size=4><li class="know">KNOW what to ask</font></p></li>
@@ -60,35 +70,60 @@ in html
 </h6>
 <br><br>
 
-<h6>
-  <p><font size=5><div id="header">Individual projects</font></p></div>
+<h5>
+  <p><font size=5><div id="header">Individual projects</div></font></p>
   <p><font size=4><li class="science">Participate in your local science fair: County and/or school.</font></p></li>
-  <p><font size=4><li class="ask4help">Asking a teacher/professor of the subject of your interest to aid you in a research project on your own. It could even just be a supervisor from a museum/organization of your intWorkshopserest. People are very eager to help youths in their academic endeavors within their expertise, and they often have tons of funding, and connections and resources to help you with your idea.
+  <p><font size=4><li class="ask4help">Asking a teacher/professor of the subject of your interest to aid you in a research project on your own. It could even just be a supervisor from a museum/organization of your interest. People are very eager to help youths in their academic endeavors within their expertise, and they often have tons of funding, and connections and resources to help you with your idea.
   </font></p></li>
-  </h6>
-  <br><br>
-
-<h6>
-  <p><font size=5><div id="header">Play your strengths.. and weaknesses</font></p></div>
+</h5>
+<br><br><br>
+<h4>
+  <p><font size=5><div id="header">Play your strengths.. and weaknesses</div></font></p>
   <p><font size=4><li class="application">In your application and essays, don’t be hesitant to elaborate on who you are</font></p></li>
-</h6>
+</h4>
 
 
 <h6>
-  <p><font size=5><div id="header">Get ahead of the game early on</font></p></div>
+  <p><font size=5><div id="header">Get ahead of the game early on</div></font></p>
   <p><font size=4><li class="goals">No matter what grade you are in right now, it would be smart do some research into colleges. Colleges are very generous in providing financial aid when a student’s performance is highly desired and they are in need of it. Having goals early on will help shape you into a competent candidate for colleges you want to apply to. While costs of college may seem extremely daunting, abundant resources exist for you to get into the colleges you want if you work hard enough for it, and grab onto the right opportunities. If you are closer to the application process, PUT YOUR TIME INTO RESEARCHING FINANCIAL AID! Each college provides different support to different students, so make sure you do enough prep work before applying to avoid spending unnecessary money.
 </font></p></li>
-</h6>
+<br>
+<p><font size=4><li class="afterCollege">After getting into college, there are countless opportunities you can look for to help pay for your tuition, with many offered by your college, and others by companies. From being a residential assistant, teacher’s assistant, or doing research in your lab, you may earn cash, meal plans, and tuition waivers. Sometimes, if your circumstances are fitting of their criteria, colleges would PAY YOU for going to class, and getting a degree.
+</font></p></li>
+</h6><br><br><br><br><br>
+
+<center><img src="thumbs.jpg"></center>
+
+
+
+
+
+
+
 
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '23bde769-bb35-48df-b2ee-b0be4a4578ef', f: true }); done = true; } }; })();</script>
 </body>
 </html>
+
 
 In css
 body {
   background-color: white;
   padding: 0px;
   margin: 0px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
 }
 
 #gray{
@@ -115,7 +150,7 @@ body {
   height: 3%;
   width: 100%;
   background-color: black;
-  z-index: -1
+  
 }
 
 #graybar{
@@ -149,14 +184,21 @@ body {
 
 #title {
   font-family: 'Merienda', cursive;
-  font color= white;
+
   height: 70px;
   margin top:10px;
   margin-bottom: 10px;
   margin-right: 100px;
   margin-left: 20px;
-
 }
+#buttons{
+  position:absolute;
+  top:135px;
+  left:20px;
+}
+
+
+
 
 #chatText{
   font-family: 'Quicksand', sans-serif;
@@ -184,7 +226,7 @@ body {
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  list-style: circle;
+
 }
 
 .funding{
@@ -193,7 +235,7 @@ body {
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  list-style: circle;
+
 
 }
 .tutoring{
@@ -201,28 +243,28 @@ body {
   top: 565px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 .workshops{
   position:absolute;
   top:585px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 .ask{
   position:absolute;
   top:605px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 .textbook{
   position:absolute;
   top:625px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 .careerCenter{
   position:absolute;
@@ -230,7 +272,7 @@ body {
   left: 90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  list-style: circle;
+
 }
 .chatText{
   position:absolute;
@@ -238,7 +280,7 @@ body {
   left: 80px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  list-style: circle;
+
 }
 
 .know{
@@ -246,7 +288,7 @@ body {
   top:740px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 
 .schoolLib{
@@ -254,33 +296,42 @@ body {
   top:765px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 
 .science{
   position: absolute;
-  top:845px;
+  top:825px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
+
 }
 .ask4help{
   position:absolute;
-  top:870px;
+  top:855px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
-  list-style: circle;
-  width: 85%
+
+  width: 85%;
 }
 .application{
   position:absolute;
-  top:1000px;
+  top:965px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
+
 }
 .goals{
   position:absolute;
-  top:1100px;
+  top:1030px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+
+}
+.afterCollege{
+  position:absolute;
+  top: 1195px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
