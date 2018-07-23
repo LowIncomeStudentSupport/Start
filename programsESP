@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="programs.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+<body>
+<div id="black"></div>
+<div id="grey"></div>
+<div id="green"></div>
+<div id="blackbar"></div>
+
+
+<h1>
+  <span>
+    <font size="28"> <div id="title"> Programs </div></font>
+          <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </span>
+</h1>
+
+<font size="25">
+<div id="Quicksand">
+  <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">UC Berkeley Summer Experience:</a></p>
+  <p style="font-size:40%;"> Residential program that offers information sessions in addition to an application workshop to introduce students to the UC application and admission process</p>
+  <p style="font-size:40%;">-For high school juniors and seniors, and community college students</p>
+
+  <p style="font-size:40%;"><a href="https://www.clylp.org/">Chicano Youth Leadership Conference (CLYLP):</a></p>
+  <p style="font-size:40%;"> Offers different programs to high school students to get them on the track to college. There are different programs hosted at multiple sites throughout California, each with different eligibility requirements</p>
+  <p style="font-size:40%;">-For high schoolsophomores and juniors</p>
+
+  <p style="font-size:40%;"><a href="https://girlswhocode.com/summer-immersion-programs/">Girls Who Code Summer Immersion Summer Program:</a></p>
+  <p style="font-size:40%;"> Free program hosted at different company sites that introduces young high school girls into the world of computer science.
+  The program is entirely free, including lunch everyday, and a laptop is provided for the duration of the class.</p>
+  <p style="font-size:40%;">-For rising junior and senior girls</p>
+
+  <p style="font-size:40%;"><a href="http://www.chabotspace.org/champions-of-science">Champions of Science:</a></p>
+  <p style="font-size:40%;"> An after-school program that works to help the underserved middle school students of the Oakland Unified School District and getting them interested into the STEM field. </p>
+  <p style="font-size:40%;">-For middle school students of the Oakland Unified School District</p>
+
+  <p style="font-size:40%;"><a href="https://kplaunch.kaiserpermanente.org/">Kaiser Permanente Launch Diversifying the Future of Health Care:</a></p>
+  <p style="font-size:40%;"> A high school summer and college program, in which the interns are exposed to the healthcare environment. </p>
+  <p style="font-size:40%;">-For high schoolers of ages 16-19 and college students of ages 18-24</p>
+
+  <p style="font-size:40%;"><a href="http://cosmos.ucdavis.edu/other.htm">California State Summer School for Mathematics and Science (COSMOS):</a></p>
+  <p style="font-size:40%;"> COSMOS is a residential summer program with a small fee with the goal of motivating California's future scientests, mathematicians, and
+  engineers.</p>
+  <p style="font-size:40%;">-For eighth graders to twelve graders</p>
+</div>
+
+</body>
+</html>
