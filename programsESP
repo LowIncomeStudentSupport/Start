@@ -14,43 +14,41 @@
 
 <h1>
   <span>
-    <font size="28"> <div id="title"> Programs </div></font>
-          <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
-          <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
-          <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
-          <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
-          <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
-          <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+    <font size="28"> <div id="title"> Programas </div></font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programas</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Bocas</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Recursos</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Consejos de Blog</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">Sobre Nosotras</button> </a>
   </span>
 </h1>
 
 <font size="25">
 <div id="Quicksand">
-  <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">UC Berkeley Summer Experience:</a></p>
-  <p style="font-size:40%;"> Residential program that offers information sessions in addition to an application workshop to introduce students to the UC application and admission process</p>
-  <p style="font-size:40%;">-For high school juniors and seniors, and community college students</p>
+  <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">Experiencia de verano en UC Berkeley:</a></p>
+  <p style="font-size:40%;">
+Programa residencial que ofrece sesiones de información además de un taller de aplicación para presentar a los estudiantes la solicitud de UC y el proceso de admisión</p>
+  <p style="font-size:40%;">-Para estudiantes de tercer y último año de la escuela secundaria y estudiantes universitarios de la comunidad</p>
 
-  <p style="font-size:40%;"><a href="https://www.clylp.org/">Chicano Youth Leadership Conference (CLYLP):</a></p>
-  <p style="font-size:40%;"> Offers different programs to high school students to get them on the track to college. There are different programs hosted at multiple sites throughout California, each with different eligibility requirements</p>
-  <p style="font-size:40%;">-For high schoolsophomores and juniors</p>
+  <p style="font-size:40%;"><a href="https://www.clylp.org/">Conferencia chicana de liderazgo juvenil (CLYLP):</a></p>
+  <p style="font-size:40%;"> Ofrece diferentes programas a estudiantes de secundaria para que puedan seguir la carrera hacia la universidad. Hay diferentes programas alojados en varios sitios en California, cada uno con diferentes requisitos de elegibilidad</p>
+  <p style="font-size:40%;">-Para estudiantes quien voy a haver de tercer y último año de la escuela secundaria</p>
 
-  <p style="font-size:40%;"><a href="https://girlswhocode.com/summer-immersion-programs/">Girls Who Code Summer Immersion Summer Program:</a></p>
-  <p style="font-size:40%;"> Free program hosted at different company sites that introduces young high school girls into the world of computer science.
-  The program is entirely free, including lunch everyday, and a laptop is provided for the duration of the class.</p>
-  <p style="font-size:40%;">-For rising junior and senior girls</p>
+  <p style="font-size:40%;"><a href="https://girlswhocode.com/summer-immersion-programs/">Girls Who Code Summer Immersion Programa de verano:</a></p>
+  <p style="font-size:40%;"> Programa gratuito alojado en diferentes sitios de la compañía que presenta a niñas jóvenes de la escuela secundaria en el mundo de la informática. El programa es completamente gratuito, incluido el almuerzo todos los días, y se proporciona una computadora portátil durante la clase.</p>
+  <p style="font-size:40%;">-Para estudiantes quien voy a haver de tercer y último año de la escuela secundaria</p>
 
-  <p style="font-size:40%;"><a href="http://www.chabotspace.org/champions-of-science">Champions of Science:</a></p>
-  <p style="font-size:40%;"> An after-school program that works to help the underserved middle school students of the Oakland Unified School District and getting them interested into the STEM field. </p>
-  <p style="font-size:40%;">-For middle school students of the Oakland Unified School District</p>
+  <p style="font-size:40%;"><a href="http://www.chabotspace.org/champions-of-science">Campeones de la ciencia:</a></p>
+  <p style="font-size:40%;"> Un programa extracurricular que trabaja para ayudar a los estudiantes de la escuela media desatendidos del Distrito Escolar Unificado de Oakland y lograr que se interesen en el campo STEM. </p>
+  <p style="font-size:40%;">-Para estudiantes de escuela media del Distrito Escolar Unificado de Oakland</p>
 
-  <p style="font-size:40%;"><a href="https://kplaunch.kaiserpermanente.org/">Kaiser Permanente Launch Diversifying the Future of Health Care:</a></p>
-  <p style="font-size:40%;"> A high school summer and college program, in which the interns are exposed to the healthcare environment. </p>
-  <p style="font-size:40%;">-For high schoolers of ages 16-19 and college students of ages 18-24</p>
+  <p style="font-size:40%;"><a href="https://kplaunch.kaiserpermanente.org/">Lanzamiento de Kaiser Permanente Diversificando el futuro de la asistencia sanitaria:</a></p>
+  <p style="font-size:40%;"> Un programa de verano y universidad de la escuela secundaria, en el que los pasantes están expuestos al entorno de la salud. </p>
+  <p style="font-size:40%;">-Para estudiantes de secundaria de entre 16 y 19 años y estudiantes universitarios de entre 18 y 24 años</p>
 
-  <p style="font-size:40%;"><a href="http://cosmos.ucdavis.edu/other.htm">California State Summer School for Mathematics and Science (COSMOS):</a></p>
-  <p style="font-size:40%;"> COSMOS is a residential summer program with a small fee with the goal of motivating California's future scientests, mathematicians, and
-  engineers.</p>
-  <p style="font-size:40%;">-For eighth graders to twelve graders</p>
+  <p style="font-size:40%;"><a href="http://cosmos.ucdavis.edu/other.htm">Escuela de Verano del Estado de California para Matemáticas y Ciencias (COSMOS):</a></p>
+  <p style="font-size:40%;"> COSMOS es un programa de verano residencial con una pequeña tarifa con el objetivo de motivar a los futuros estudiantes de California, matemáticos y ingenieros.</p>
+  <p style="font-size:40%;">-Para estudiantes de octavo a doceavo grados</p>
 </div>
 
 </body>
