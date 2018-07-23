@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="scholarships.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+  </head>
+
+<body>
+<div id="white"></div>
+<div id="black"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div id="title"> Becas </div.</font>
+      <a href="file:///Users/ingridchang/Desktop/income/homepageESP.html" style='text-decoration:none;'><button class="btn">Página Principal</button> </a>
+      <a href="file:///Users/ingridchang/Desktop/income/programsESP.html" style='text-decoration:none;'> <button class="btn">Programas</button> </a>
+      <a href="file:///Users/ingridchang/Desktop/income/scholarshipsESP.html" style='text-decoration:none;'> <button class="btn">Bocas</button> </a>
+      <a href="file:///Users/ingridchang/Desktop/income/resourcesESP.html" style='text-decoration:none;'> <button class="btn">Recursos</button> </a>
+      <a href="file:///Users/ingridchang/Desktop/income/adviceBlogESP.html" style='text-decoration:none;'> <button class="btn">Consejos de Blog</button> </a>
+      <a href="file:///Users/ingridchang/Desktop/income/aboutUsESP.html" style='text-decoration:none;'> <button class="btn">Sobre Nosotras</button> </a>
+  </span>
+</h1>
+
+<div id="Quicksand">
+  <br>
+  <p style="font-size:40%;"><a href="https://studentaid.ed.gov/sa/fafsa">Aplicación gratuita para ayuda federal para estudiantes(FAFSA):</a></p>
+  <p style="font-size:40%;">Todos deben completar FAFSA ya que es necesario para solicitar asistencia federal para estudiantes, estudio de trabajo y préstamos.</p>
+
+  <p style="font-size:40%;"><a href="http://www.aesengineers.com/scholarships.php">AES Beca de soluciones de ingeniería:</a></p>
+  <p style="font-size:40%;"> Proporciona ayuda a los estudiantes motivados que desean ampliar su educación.</p>
+  <p style="font-size:40%;">-Para estudiantes de secundaria -Hasta $500 otorgados -Los cursos de ingeniería no tienen que tomarse para ser elegibles</p>
+
+  <p style="font-size:40%;"><a href="https://www.skincareox.com/scholarship/">La beca Beauty + Wellness para mujeres:</a></p>
+  <p style="font-size:40%;">Proporciona ayuda financiera a mujeres jóvenes que se esfuerzan por vivir un estilo de vida saludable como estudiantes que intentan pagar la universidad.</p>
+  <p style="font-size:40%;">-Para estudiantes de último año de secundaria: hasta $500 otorgados -Para estudiantes universitarios: hasta $1000 de adjudicación -A small essay is required</p>
+
+  <p style="font-size:40%;"><a href="http://cascwa.org/student-scholarships-2/">Asociación de Supervisores de Bienestar y Asistencia Infantil de California(CASCWA):</a></p>
+  <p style="font-size:40%;">Para estudiantes de último año de secundaria que han superado obstáculos distintivos (superando la falta de éxito causado por el personal o la familia problemas o problemas de asistencia y actitud). </p>
+  <p style="font-size:40%;">-Para estudiantes de último año de secundaria: hasta $500 otorgados </p>
+</div>
+
+</body>
+</html>
