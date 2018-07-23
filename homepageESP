@@ -31,7 +31,13 @@ in html
     <br> <br> <br>
     <img src="http://diverseeducation.com/wp-content/uploads/2014/04/040214_High_School.jpg">
    <br> <br> <i> <font size="6"> <div id="vision"> Nuestra Visión para Crear Nombre de Sitio Web Inteligente </i> </font> <br></div>
-    <font size="4"> <div id="text"> <b>Nombre del Sitio Web Inteligente</b>se creó cuando un equipo de niñas de un programa introductorio de ciencias de la computación se reunió para trabajar en un proyecto sobre el tema de su elección. La generosidad de su programa de ciencias de la computación y su compañía anfitriona, que fue totalmente gratuita y proporcionó todos los materiales y comidas todos los días, llevó a las niñas a ayudar a las personas que se enfrentaron a desafíos similares, así como a personas de diferentes ámbitos. Como estudiantes de familias de bajos ingresos, están agobiados con los deberes familiares, y como resultado luchan constantemente para mantenerse a la par de sus contrapartes financieramente estables en la escuela. Este sitio incluye información, nosotros como estudiantes como usted, deseamos haber tenido en nuestro tiempo la búsqueda de recursos académicos y oportunidades. Como ya estás aquí, podemos decir que eres un alumno ambicioso. ¡Esperamos que este sitio le resulte útil en sus esfuerzos!</font></div>
+    <font size="4"> <div id="text"> <b>Nombre del Sitio Web Inteligente</b>se creó cuando un equipo de niñas de un programa introductorio a las ciencias de la 
+    computación se reunieron para trabajar en un proyecto sobre el tema de su elección. Tras la generosidad del programa de ciencias de la computación y su compañía 
+    anfitriona, que fue totalmente gratuita y proporcionó todos los materiales y comidas todos los días, las niñas deseaban ayudar a las personas que se enfrentan
+    a desafíos similares, así como a personas de diferentes fondos. Como estudiantes de familias de bajos ingresos, están agobiadas con los deberes familiares, y como
+    resultado luchan constantemente para mantenerse a la par de sus contrapartes financieramente estables en la escuela. Este sitio incluye información que nosotros como 
+    estudiantes como ustedes, deseamos haber tenido en nuestro tiempo la búsqueda de recursos académicos y oportunidades. Como ya estás aquí, podemos decir que eres un
+    alumno ambicioso. ¡Esperamos que este sitio te resulte útil en tus esfuerzos!</font></div>
   </center>
   </body>
 </html>
