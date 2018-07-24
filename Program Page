@@ -55,3 +55,79 @@
 
 </body>
 </html>
+
+////////////////////////
+in css
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+#title{
+  margin-top:5px;
+  margin-bottom:10px;
+  margin-right:100px;
+  margin-left:25px;
+}
+
+#blackbar{
+    border-right: 40px solid black;
+    height: 1100px;
+    right: 40px;
+    position: absolute;
+    top: 0;
+    z-index: -2
+}
+
+#grey{
+  position: absolute;
+  top: 0px;
+  height: 25%;
+  width: 100%;
+  background-color: gray;
+  z-index: -1
+}
+
+#green{
+  position: absolute;
+  top: 80px;
+  height: 5%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1
+}
+
+#black{
+  position: absolute;
+  top: 141px;
+  height: 2%;
+  width: 100%;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50;
+  margin-right: 100;
+  margin-left: 30px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 5px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
+}
