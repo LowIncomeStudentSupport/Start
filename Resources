@@ -1,4 +1,6 @@
 #in html file 
+
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
@@ -6,11 +8,15 @@
 
 <body>
   <div id="grey"></div>
-  <font size="28"> <div id="title">Resources </div></font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+  <font size="25"> <div id="title">Resources </div></font>
+<div class= "button">
+
+  <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
   <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
   <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
   <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
   <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+</div>
     <div id="greenLine"></div>
     <div id="greenLine2"></div>
 
@@ -38,15 +44,16 @@
 
     <div id="websiteName">
       <p style="font-size:90%;"><a href="https://prepscholar.com/sat/s/resources">Prepscholar: </a></p></div>
-      <p><font size=4><li class="paid">Prepscholar is a paid online tutoring service for SAT and ACT prep, it offers a huge spectrum of free blogs that provide info and advice about school and college, all written by very well-credentialed people)</font></li></p>
+      <p><font size=4><li class="paid">Prepscholar is a paid online tutoring service for SAT and ACT prep, it offers a huge spectrum of free blogs that provide info and advice about school and college, all written by very well-credentialed people</font></li></p>
       <p><font size=4><li class="info">Info about the academic statistics you need to get into any specific college</font></li></p>
       <p><font size=4><li class="guide">Extensive guides, blogs, advice, and compilation of ideas for school and college</font></li></p>
-      
+
 
 </head>
 
 </body>
 </html>
+
 
 
 
@@ -60,7 +67,11 @@ body {
   margin: 0px;
 }
 
-
+.button{
+  position:relative;
+  left: 300px;
+  top: -50px;
+}
 
 #black{
   position:absolute;
@@ -78,6 +89,12 @@ body {
     background-color: rgba(198, 235, 198, 1.0);
     z-index: -1
   }
+  #press{
+    top:0px;
+    left:200px;
+  }
+
+
 
 
 
@@ -122,8 +139,10 @@ body {
 
 
 
+
+
 #title {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merienda', cursive;
 }
 #bestInfo{
   font-family: 'Quicksand', sans-serif;
@@ -167,7 +186,7 @@ body {
 
 .mother{
   position:absolute;
-  top:405px;
+  top:420px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width:85%
@@ -176,14 +195,14 @@ body {
 
 .blog{
   position:absolute;
-  top:455px;
+  top:475px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
 }
 .family{
   position:absolute;
-  top:485px;
+  top:500px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
 
