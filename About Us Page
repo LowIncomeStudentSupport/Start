@@ -1,33 +1,38 @@
-In html
 <!DOCTYPE>
 <html>
   <head>
     <link rel="stylesheet" href="Stylezzzz.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
     <style>
-      .pic1 {
-        vertical-align: left;
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin-top: 120px;
-        margin-left: 62px;
+    .pic1 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
+      }
+    .pic2 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
         }
-        .pic2 {
-          vertical-align: center;
-          width: 300px;
-          height: 300px;
-          border-radius: 50%;
-          margin-top: 120px;
-          margin-left: 62px;
+    .pic3 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
           }
-          .pic3 {
-            vertical-align: center;
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            margin-top: 120px;
-            margin-left: 62px;
+      .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        height: 300px;
+            }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
             }
 
     </style>
@@ -49,18 +54,34 @@ In html
   </span>
 </h1>
 
-<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
-alt="Picture of Sopia" class="pic1">
-<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
-alt="Picture of Maria" class="pic2">
-<img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/45/2048x1165/gallery-1446824821-12038569-10153015444511237-8218060226590962793-o.jpg?resize=768:*"
-alt="Picture of Ingrid" class="pic3">
+<div id="Quicksand">
+  <div class="row">
+    <div class="column">
+      <h2>Sofia:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164cd63ce0eb1c2c&attid=0.1&disp=safe&zw"
+      alt="Picture of Sofia" class="pic1">
+      <p>Sofia Vasconcelos is a junior at Castro Valley High School. She enjoys singing in her school’s choir and loves photography. She also indulges in binge watching Netflix with her friends in her free time. But most of all, she loves to learn new things and help others. She plans on pursuing a career in law but she loves computer science as well. Sofia had an amazing time at the Girls Who Code program and would recommend it to all girls that are interested in computer science.
+ </p>
+    </div>
+    <div class="column">
+      <h2>Maria:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164b99b9b0292da2&attid=0.1&disp=safe&realattid=1606546559395081305-local0&zw"
+      alt="Picture of Maria" class="pic2">
+      <p>Maria Chavez is a senior at Amador Valley High School. She enjoys playing guitar, reading, and doing her nails. At school, she is in charge of the organization SEED (Seeking Educational Equity and Diversity) in the quest for improving her school and community. For her career path, she is considering psychology since she loves interacting with people. She loves trying new things and meeting new people. Maria learned a lot from the Girls Who Code Program and really enjoyed it.
+</p>
+    </div>
+    <div class="column">
+      <h2>Ingrid:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164cd5b35422fcd6&attid=0.1&disp=safe&realattid=1631e5ba84e8d55b79d1&zw'"
+      alt="Picture of Ingrid" class="pic3">
+      <p>Ingrid is a junior at Dublin High School. With a passion for literature, music,  and daydreaming, Ingrid takes pride in weekends spent productively procrastinating from homework. Most of all though, Ingrid enjoys spending time with friends and family, or watching all sorts of documentaries late at night (preferably cuddled in a blanket with some sweets in hand). While she is not certain of what field of study she would like to pursue in the future, she is eager to engage with others to learn together.</p>
+    </div>
+  </div>
+</div>
 
-<br>
-  <div id="Quicksand">
-<p style="font-size:40%;"> Sopia: </p> <p style="font-size:40%;"> Maria: </p> <p style="font-size:40%;"> Ingrid </p>
 </body>
 </html>
+
 
 In css
 body {
@@ -100,10 +121,11 @@ body {
 
 #graybar{
     border-right: 40px solid gray;
-    height: 700px;
+    height: 830px;
     right: 40px;
     position: absolute;
     top: 183;
+    z-index: -3
 }
 
 .title{
@@ -113,11 +135,11 @@ body {
 
 #Quicksand {
   font-family: 'Quicksand', sans-serif;
+  font-size: 40%;
   width: 90%;
-  margin-top: 70px;
-  margin-bottom: 50;
-  margin-right: 100;
-  margin-left: 30px;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 .btn{
