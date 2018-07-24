@@ -1,8 +1,7 @@
-In html
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Stylez.css">
+    <link rel="stylesheet" href="programs.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
   </head>
 
@@ -15,39 +14,37 @@ In html
 
 <h1>
   <span>
-    <font size="28"> <div id="title"> Programs </div.</font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
-    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+    <font size="28"> <div id="title"> Programs </div></font>
+          <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+          <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
   </span>
 </h1>
 
-
+<font size="25">
 <div id="Quicksand">
   <p style="font-size:40%;"><a href="https://admissions.berkeley.edu/berkeley-summer-experience">UC Berkeley Summer Experience:</a></p>
-  <p style="font-size:40%;"> The Berkeley Summer Program is a residential program that offers an application workshop and information sessions
-  to introduce students to the UC application and the admission process.</p>
-  <p style="font-size:40%;">-For high school juniors and seniors and community college students</p>
+  <p style="font-size:40%;"> Residential program that offers information sessions in addition to an application workshop to introduce students to the UC application and admission process</p>
+  <p style="font-size:40%;">-For high school juniors and seniors, and community college students</p>
 
   <p style="font-size:40%;"><a href="https://www.clylp.org/">Chicano Youth Leadership Conference (CLYLP):</a></p>
-  <p style="font-size:40%;"> The Chicano Youth Leadership Conference Program offers different programs to high school students to get them on the track
-  to college. There are different programs hosted at different sites each with different eligibility requirements.</p>
-  <p style="font-size:40%;">-For sophomores and juniors</p>
+  <p style="font-size:40%;"> Offers different programs to high school students to get them on the track to college. There are different programs hosted at multiple sites throughout California, each with different eligibility requirements</p>
+  <p style="font-size:40%;">-For high schoolsophomores and juniors</p>
 
   <p style="font-size:40%;"><a href="https://girlswhocode.com/summer-immersion-programs/">Girls Who Code Summer Immersion Summer Program:</a></p>
-  <p style="font-size:40%;"> The GWC SIP is a free program hosted at different company sites that introduces young high school girls into the world of computer science.
-  The program is entirely free and a computer is provided for the duration of the class.</p>
+  <p style="font-size:40%;"> Free program hosted at different company sites that introduces young high school girls into the world of computer science.
+  The program is entirely free, including lunch everyday, and a laptop is provided for the duration of the class.</p>
   <p style="font-size:40%;">-For rising junior and senior girls</p>
 
   <p style="font-size:40%;"><a href="http://www.chabotspace.org/champions-of-science">Champions of Science:</a></p>
-  <p style="font-size:40%;"> Champions of Science is an after-school program that works to help the underserved middle school students of the Oakland Unified School
-  District and getting them interested into the STEM field. </p>
+  <p style="font-size:40%;"> An after-school program that works to help the underserved middle school students of the Oakland Unified School District and getting them interested into the STEM field. </p>
   <p style="font-size:40%;">-For middle school students of the Oakland Unified School District</p>
 
   <p style="font-size:40%;"><a href="https://kplaunch.kaiserpermanente.org/">Kaiser Permanente Launch Diversifying the Future of Health Care:</a></p>
-  <p style="font-size:40%;"> Kaiser Permanente Launch Diversifying the Future of Health Care has a high school summer program and a college program. In which the
-  interns are exposed to the healthcare environment. </p>
+  <p style="font-size:40%;"> A high school summer and college program, in which the interns are exposed to the healthcare environment. </p>
   <p style="font-size:40%;">-For high schoolers of ages 16-19 and college students of ages 18-24</p>
 
   <p style="font-size:40%;"><a href="http://cosmos.ucdavis.edu/other.htm">California State Summer School for Mathematics and Science (COSMOS):</a></p>
@@ -58,72 +55,3 @@ In html
 
 </body>
 </html>
-
-
-In css
-body {
-  background-color: white;
-  padding: 0px;
-  margin: 0px;
-}
-
-#blackbar{
-    border-right: 40px solid black;
-    height: 1100px;
-    right: 40px;
-    position: absolute;
-    top: 0;
-    z-index: -2
-}
-
-#grey{
-  position: absolute;
-  top: 0px;
-  height: 25%;
-  width: 100%;
-  background-color: gray;
-  z-index: -1
-}
-
-#green{
-  position: absolute;
-  top: 80px;
-  height: 5%;
-  width: 100%;
-  background-color: rgba(198, 235, 198, 1.0);
-  z-index: -1
-}
-
-#black{
-  position: absolute;
-  top: 141px;
-  height: 2%;
-  width: 100%;
-  background-color: black;
-}
-
-h1 {
-  font-family: 'Merienda', cursive;
-}
-
-#Quicksand {
-  font-family: 'Quicksand', sans-serif;
-  width: 90%;
-  margin-top: 70px;
-  margin-bottom: 50;
-  margin-right: 100;
-  margin-left: 30px;
-}
-
-.btn{
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.btn:hover {
-background: white;
-}
