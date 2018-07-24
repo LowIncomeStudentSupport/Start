@@ -1,0 +1,244 @@
+#in html file 
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand" rel="stylesheet">
+
+<body>
+  <div id="grey"></div>
+  <font size="28"> <div id="title">Resources </div></font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+    <div id="greenLine"></div>
+    <div id="greenLine2"></div>
+
+  <div id="white"></div>
+  <div id="black"></div>
+
+  <br>
+  <h2>
+    <p><font size=4><div  id="bestInfo">Los mejores sitios web, y lo que ofrecen:</font></div>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://www.collegeboard.org/">Collegeboard:</a></p></div>
+    <p><font size=4><li class="scholarships">Becas</font></li></p>
+    <p><font size=4><li class = "dates">Fechas de prueba para ACT, SAT, SAT Subject Tests y AP tests</font></li></p>
+    <p><font size=4><li class="advice">Asesoramiento sobre qué pruebas y clases debes tomar</font></li></p>
+<br>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="http://www.ronniesawesomelist.com/">La lista impresionante de Ronnie:</a></p></div>
+      <p><font size=4><li class="mother">Compilación hecha por una madre para eventos comunitarios, campamentos y programas. Ex. Teen Science Night, organizado por la Academia de Ciencias de California</font></li></p>
+      <p><font size=4><li class="blog">Blogs sobre la experiencia de las personas que participan en diferentes eventos / programas</font></li></p>
+      <p><font size=4><li class="family">Un montón de eventos familiares también, para que pueda, como familia, explorar cosas nuevas juntos</font></li></p>
+<br>
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://www.eventbrite.com/">Eventbrite:</a></p></div>
+      <p><font size=4><li class="local">Eventos locales filtrados según la ubicación. Una tonelada de eventos gratuitos, clases y talleres se enumeran</font></li></p>
+
+    <div id="websiteName">
+      <p style="font-size:90%;"><a href="https://prepscholar.com/sat/s/resources">Prepscholar: </a></p></div>
+      <p><font size=4><li class="paid">Prepscholar es un servicio de tutoría pagado en línea para la preparación de SAT y ACT, ofrece un amplio espectro de blogs gratuitos que brindan información y consejos sobre la escuela y la universidad, todos escritos por personas con credenciales muy buenas.</font></li></p>
+      <p><font size=4><li class="info">Info about the academic statistics you need to get into any specific college</font></li></p>
+      <p><font size=4><li class="guide">Extensas guías, blogs, consejos y compilación de ideas para la escuela y la universidad</font></li></p>
+      
+
+</head>
+
+</body>
+</html>
+
+
+
+
+
+
+#in css file 
+body {
+  background-color: rgba(128, 128, 128, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+#black{
+  position:absolute;
+  top: 120px;
+  height:2%;
+  width: 100%;
+  background-color: black;
+  z-index: -1
+}
+  #green{
+    position: fixed;
+    top: 80px;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(198, 235, 198, 1.0);
+    z-index: -1
+  }
+
+
+
+  #white{
+    position: absolute;
+    top: 80px;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    z-index: -1
+  }
+
+
+
+  #greenLine{
+    border-right: 6px solid rgba(198, 235, 198, 1.0);
+    height: 1000px;
+    position: absolute;
+    right: 5%;
+    width: 30%;
+    margin-left: -3px;
+    top: 0;
+
+  }
+
+
+
+  #greenLine2{
+  border-right: 6px solid rgba(198, 235, 198, 1.0);
+  height: 1000px;
+  position: absolute;
+  right: 8%;   /* This places the line as far as you want it to the right */
+  width: 20%;
+  margin-left: -3px;
+  top: 0;
+  z-index: -1
+
+  }
+
+
+
+
+
+
+#title {
+  font-family: 'Quicksand', sans-serif;
+}
+#bestInfo{
+  font-family: 'Quicksand', sans-serif;
+  width: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+#websiteName{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 50px;
+  width:85%
+
+}
+.scholarships {
+  position:absolute;
+  top:280px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+}
+.dates{
+  position: absolute;
+  top: 305px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.advice{
+  position:absolute;
+  top:330px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.mother{
+  position:absolute;
+  top:405px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width:85%
+
+}
+
+.blog{
+  position:absolute;
+  top:455px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.family{
+  position:absolute;
+  top:485px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.local{
+  position:absolute;
+  top:560px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.paid{
+  position:absolute;
+  top:635px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+  width:85%;
+
+}
+
+.info{
+  position:absolute;
+  top:690px;
+  left:90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.guide{
+  position:absolute;
+  top:715px;
+  left: 90px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+#insideWeb{
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: circle;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 80px;
+  }
+
+
+
+
+  .btn{
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+  }
