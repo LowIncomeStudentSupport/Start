@@ -1,0 +1,158 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <link rel="stylesheet" href="Stylezzzz.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
+    <style>
+    .pic1 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
+      }
+    .pic2 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
+        }
+    .pic3 {
+      width: 320px;
+      height: 370px;
+      border-radius: 50%;
+      border: 3px solid;
+          }
+      .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        height: 300px;
+            }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+            }
+
+    </style>
+  </head>
+
+<body>
+<div id="green"></div>
+<div id="black"></div>
+<div id="grey"></div>
+<div id="graybar"></div>
+
+<h1>
+  <span>
+    <font size="28"> <div class="title"> 关于我们 </div.</font> <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+    <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  </span>
+</h1>
+
+<div id="Quicksand">
+  <div class="row">
+    <div class="column">
+      <h2>Sofia:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164cd63ce0eb1c2c&attid=0.1&disp=safe&zw"
+      alt="Picture of Sofia" class="pic1">
+      <p>
+Sofia Vasconcelos是卡斯特罗谷高中的一名大三学生。她喜欢在学校的合唱团里唱歌，喜欢摄影。在闲暇时间，她还沉迷于和朋友们一起狂热地看着Netflix。但最重要的是，她喜欢学习新事物并帮助他人。她计划从事法律职业，但她也喜欢计算机科学。索菲亚在女孩代码计划中度过了一段美好的时光，并将其推荐给所有对计算机科学感兴趣的女孩。
+ </p>
+    </div>
+    <div class="column">
+      <h2>Maria:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164b99b9b0292da2&attid=0.1&disp=safe&realattid=1606546559395081305-local0&zw"
+      alt="Picture of Maria" class="pic2">
+      <p>
+Maria Chavez是Amador Valley高中的一名大四学生。她喜欢弹吉他，阅读和做指甲。在学校，她负责组织SEED（寻求教育公平和多样性）以寻求改善她的学校和社区。对于她的职业道路，她正在考虑心理学，因为她喜欢与人交往。她喜欢尝试新事物和结识新朋友。玛丽亚从女孩代码计划中学到了很多，并且非常喜欢它。
+</p>
+    </div>
+    <div class="column">
+      <h2>Ingrid:</h2>
+      <img src="https://mail.google.com/mail/u/0/?ui=2&ik=ea05cc7f0a&view=att&th=164cd5b35422fcd6&attid=0.1&disp=safe&realattid=1631e5ba84e8d55b79d1&zw'"
+      alt="Picture of Ingrid" class="pic3">
+      <p>Ingrid是都柏林高中的一名大三学生。凭借对文学，音乐和白日做梦的热情，英格丽德为在家庭作业中有效拖延的周末感到自豪。最重要的是，英格丽德喜欢与朋友和家人共度时光，或者在深夜观看各种纪录片（最好是手拿一些糖果在毯子里蜷缩）。虽然她不确定将来会追求什么样的研究领域，但她渴望与其他人一起学习。</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+In css
+body {
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 0px;
+  margin: 0px;
+}
+
+#green{
+  position: absolute;
+  top: 80px;
+  height: 30%;
+  width: 100%;
+  background-color: rgba(198, 235, 198, 1.0);
+  z-index: -1;
+  top: 0
+}
+
+#black{
+  position: absolute;
+  top: 70px;
+  height:7%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  top:73
+}
+
+#grey{
+  position: absolute;
+  top:80px;
+  height:4%;
+  width: 100%;
+  background-color: grey;
+  top: 140
+}
+
+#graybar{
+    border-right: 40px solid gray;
+    height: 830px;
+    right: 40px;
+    position: absolute;
+    top: 183;
+    z-index: -3
+}
+
+.title{
+  font-family: 'Merienda', cursive;
+  margin-left: 5px;
+}
+
+#Quicksand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40%;
+  width: 90%;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(198, 235, 198, 1.0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+background: white;
+}
