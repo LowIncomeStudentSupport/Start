@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="adviceChat.css">
+    <link rel="stylesheet" href="adviceBlog.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand|Signika" rel="stylesheet">
   </head>
 
@@ -22,24 +22,27 @@
 
 <h1>
   <span>
-    <p> <font size="28"> <div id="title"> Advice Chat </div></font></p>
+    <p> <font size="28"> <div id="title"> Advice Blog </div></font></p>
   </span>
 </h1>
-<br>
+<br><br>
 
 <h2>
 
 <p><font size=3><div class="chatText">If you have any questions about the content on our web page or if you need any further advice, please press the button on the bottom of the page and we will get back to you as soon as we can.</div></font></p>
 
 </h2>
-<br><br>
+<br>
 
 <h3>
-  <p><font size=4><div id="chatText">Additional advice and tips:</div></font></p>
+  <p><font size=4><div id="tips">Additional advice and tips:</div></font></p>
+</h3>
+<h4>
   <p><font size=5><div id="header">Internships pay!</div></font></p>
   <p><font size=4><li class="internships">They give you pay almost always above the minimum wage, WHILE you are put in a professional environment where you learn often hands-on in the field of your interest. A very helpful way to help you figure out if you want to dedicate your future time into a job like it
 </font></p></li>
-</h3>
+<h4>
+
 
 
 <br>
@@ -67,7 +70,7 @@
   <p><font size=4><li class="know">KNOW what to ask</font></p></li>
   <p><font size=4><li class="schoolLib">Ask about what resources are at your school library, like tutoring</font></p></li>
 </h6>
-<br><br>
+<br><br><br>
 
 <h5>
   <p><font size=5><div id="header">Individual projects</div></font></p>
@@ -92,12 +95,6 @@
 </h6><br><br><br><br><br>
 
 <center><img src="thumbs.jpg"></center>
-
-
-
-
-
-
 
 
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '23bde769-bb35-48df-b2ee-b0be4a4578ef', f: true }); done = true; } }; })();</script>
@@ -146,7 +143,7 @@ background: white;
 
 #black{
   position: absolute;
-  top: 115px;
+  top: 135px;
   height: 3%;
   width: 100%;
   background-color: black;
@@ -155,7 +152,7 @@ background: white;
 
 #graybar{
     border-right: 40px solid rgba(191, 191, 191, 1.0);
-    height: 1000px;
+    height: 1400px;
     right: 50px;
     position: absolute;
     top: 0;
@@ -200,14 +197,15 @@ background: white;
 
 
 
-#chatText{
+#tips{
   font-family: 'Quicksand', sans-serif;
   width: 85%;
-  top: 30px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  top: 60px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   margin-right: 100px;
   margin-left: 30px;
+  padding-top: 10px;
 
 }
 
@@ -276,7 +274,7 @@ background: white;
 }
 .chatText{
   position:absolute;
-  top:180px;
+  top:195px;
   left: 80px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
@@ -301,14 +299,14 @@ background: white;
 
 .science{
   position: absolute;
-  top:825px;
+  top:835px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
 }
 .ask4help{
   position:absolute;
-  top:855px;
+  top:860px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
@@ -316,14 +314,14 @@ background: white;
 }
 .application{
   position:absolute;
-  top:965px;
+  top:980px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
 }
 .goals{
   position:absolute;
-  top:1030px;
+  top:1045px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
@@ -331,7 +329,7 @@ background: white;
 }
 .afterCollege{
   position:absolute;
-  top: 1195px;
+  top: 1205px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width: 85%;
