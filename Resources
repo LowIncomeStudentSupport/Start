@@ -1,21 +1,20 @@
-#in html file 
-
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resources.css">
 <link href="https://fonts.googleapis.com/css?family=Merienda|Quicksand" rel="stylesheet">
 
 <body>
   <div id="grey"></div>
-  <font size="25"> <div id="title">Resources </div></font>
+  <font size="25"> <b><div id="title">Resources</div></b></font>
 <div class= "button">
 
-  <a href="http://google.com" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
-  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
-  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
-  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
-  <a href="http://google.com" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/homepage.html" style='text-decoration:none;'><button class="btn">Homepage</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/programs.html" style='text-decoration:none;'> <button class="btn">Programs</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/scholarships.html" style='text-decoration:none;'> <button class="btn">Scholarships</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/resources.html" style='text-decoration:none;'> <button class="btn">Resources</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/adviceBlog.html" style='text-decoration:none;'> <button class="btn">Advice Blog</button> </a>
+  <a href="file:///Users/ingridchang/Desktop/income/aboutUs.html" style='text-decoration:none;'> <button class="btn">About Us</button> </a>
 </div>
     <div id="greenLine"></div>
     <div id="greenLine2"></div>
@@ -23,9 +22,9 @@
   <div id="white"></div>
   <div id="black"></div>
 
-  <br>
-  <h2>
-    <p><font size=4><div  id="bestInfo">Best websites, and what they offer:</font></div>
+
+
+<h2>
     <div id="websiteName">
       <p style="font-size:90%;"><a href="https://www.collegeboard.org/">Collegeboard:</a></p></div>
     <p><font size=4><li class="scholarships">Scholarships</font></li></p>
@@ -70,7 +69,7 @@ body {
 .button{
   position:relative;
   left: 300px;
-  top: -50px;
+  top: -60px;
 }
 
 #black{
@@ -79,7 +78,7 @@ body {
   height:2%;
   width: 100%;
   background-color: black;
-  z-index: -1
+  z-index: -100
 }
   #green{
     position: fixed;
@@ -87,7 +86,7 @@ body {
     height: 5%;
     width: 100%;
     background-color: rgba(198, 235, 198, 1.0);
-    z-index: -1
+    z-index: -100
   }
   #press{
     top:0px;
@@ -104,7 +103,7 @@ body {
     height: 5%;
     width: 100%;
     background-color: white;
-    z-index: -1
+    z-index: -100
   }
 
 
@@ -117,7 +116,7 @@ body {
     width: 30%;
     margin-left: -3px;
     top: 0;
-
+    z-index: －4
   }
 
 
@@ -130,20 +129,19 @@ body {
   width: 20%;
   margin-left: -3px;
   top: 0;
-  z-index: -1
+  z-index: －4
+
 
   }
 
-
-
-
-
-
-
-
 #title {
-  font-family: 'Merienda', cursive;
-}
+    font-family: 'Merienda', cursive;
+    height: 70px;
+    margin-top:15px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 20px;
+  }
 #bestInfo{
   font-family: 'Quicksand', sans-serif;
   width: 85%;
@@ -164,13 +162,13 @@ body {
 }
 .scholarships {
   position:absolute;
-  top:280px;
+  top:195px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
 }
 .dates{
   position: absolute;
-  top: 305px;
+  top: 220px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -178,7 +176,7 @@ body {
 
 .advice{
   position:absolute;
-  top:330px;
+  top:250px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
@@ -186,7 +184,7 @@ body {
 
 .mother{
   position:absolute;
-  top:420px;
+  top:330px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width:85%
@@ -195,14 +193,14 @@ body {
 
 .blog{
   position:absolute;
-  top:475px;
+  top:360px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
 }
 .family{
   position:absolute;
-  top:500px;
+  top:395px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
 
@@ -210,7 +208,7 @@ body {
 
 .local{
   position:absolute;
-  top:560px;
+  top:470px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
@@ -218,7 +216,7 @@ body {
 
 .paid{
   position:absolute;
-  top:635px;
+  top:540px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
   width:85%;
@@ -227,14 +225,14 @@ body {
 
 .info{
   position:absolute;
-  top:690px;
+  top:600px;
   left:90px;
   font-family: 'Quicksand', sans-serif;
 
 }
 .guide{
   position:absolute;
-  top:715px;
+  top:635px;
   left: 90px;
   font-family: 'Quicksand', sans-serif;
 
@@ -256,8 +254,11 @@ body {
   .btn{
       border: none;
       background-color: inherit;
-      padding: 14px 28px;
+      padding: 2px 28px;
       font-size: 16px;
       cursor: pointer;
       display: inline-block;
+  }
+  .btn:hover {
+  background: white;
   }
